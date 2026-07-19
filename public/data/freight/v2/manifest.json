@@ -1,0 +1,30 @@
+{
+  "artifact_hashes": {
+    "alerts.json": "0e4b5f7f7802fe2ca6cbcc097e6a882b57cfb008f0b859d5ebbfb72a612cdc97",
+    "evaluation.json": "49aae9e8bb2806a02977b8f5e4bb84bfccd5ea2b3ba152f7383375da7f155719",
+    "lanes/data_quality-in-oh-ftl.json": "45794bf556aef97ce1db12244a6896dfb45ed8e010adea5905227a89835d2c16",
+    "lanes/high-pa-ny-all.json": "0bda0f7cf3e4f751b2ff8a4db4db36aefb147152be97c0989e33749e55b371ea",
+    "lanes/medium-pa-oh-all.json": "c033bbdd8579816d880fb264f6ff7c465cc3f63ce5fca39492664c7192535a83",
+    "network.json": "543663ee3e80183560ca70c813dda7c6d4f321175b913e6e9c3d6bd705e88f9d"
+  },
+  "representative_lanes": [
+    {
+      "alert_id": "ALERT-1FBE82E8EF476D55DB51",
+      "path": "lanes/high-pa-ny-all.json",
+      "role": "high"
+    },
+    {
+      "alert_id": "ALERT-037CE9983388DD1E6AA1",
+      "path": "lanes/medium-pa-oh-all.json",
+      "role": "medium"
+    },
+    {
+      "alert_id": "ALERT-B413C45F8A7625DABEDE",
+      "path": "lanes/data_quality-in-oh-ftl.json",
+      "role": "data_quality"
+    }
+  ],
+  "run_id": "cc024261-003c-4461-83f0-71e041694a54",
+  "schema_version": "2.0.0",
+  "source_manifest_sha256": "c850633078e1bd6f3e9e09e3cdb7fb69f1d981cb71bef0b65540a27f3be8f431"
+}
