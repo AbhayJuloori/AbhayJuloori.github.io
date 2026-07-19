@@ -1,0 +1,32 @@
+{
+  "name": "abhay-decision-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "validate:evidence": "node --experimental-strip-types scripts/validate-freight-evidence.mjs",
+    "prebuild": "npm run validate:evidence",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "framer-motion": "12.38.0",
+    "next": "15.5.18",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.40",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.18",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "postcss": "8.5.15"
+  }
+}
