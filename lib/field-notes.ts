@@ -2,7 +2,7 @@ import type { FieldNote } from "@/lib/types";
 
 export const fieldNotes = [
   {
-    label: "Current build",
+    label: "Recent theme",
     title: "Streaming, simulation, and the cost of added complexity.",
     detail: "The newest work asks what a system must survive in production—and whether each extra piece earns its place.",
   },
