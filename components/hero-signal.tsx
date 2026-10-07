@@ -17,15 +17,15 @@ export function HeroSignal() {
           <circle className="hero-signal__node" cx="52" cy="104" r="6" />
           <circle className="hero-signal__node" cx="238" cy="88" r="6" />
           <circle className="hero-signal__node" cx="410" cy="118" r="6" />
-          <text x="52" y="84">OPERATIONS</text>
-          <text x="70" y="198">DEMAND</text>
-          <text x="72" y="290">TIME-TO-EVENT</text>
-          <text x="350" y="72">RISK</text>
-          <text x="350" y="120">BENEFIT</text>
+          <text x="52" y="84">STREAM</text>
+          <text x="70" y="198">OPERATIONS</text>
+          <text x="72" y="290">SIMULATION</text>
+          <text x="350" y="72">GRAPH</text>
+          <text x="350" y="120">BASELINE</text>
         </svg>
       </div>
       <figcaption className="hero-signal__caption" id="hero-signal-caption">
-        Route · forecast · survival · intervention
+        Stream · operations · simulation · graph
       </figcaption>
     </figure>
   );

@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CaseStudyPage } from "@/components/case-study-page";
 import { ProjectPreview } from "@/components/project-preview";
 import { SiteHeader } from "@/components/site-header";
 import { FreightProjectPage } from "@/components/freight/freight-project-page";
-import { flagshipProjects, getProject, isProjectSlug } from "@/lib/projects";
+import { getCaseStudy } from "@/lib/case-studies";
+import { getProject, isProjectSlug, projects } from "@/lib/projects";
 
 export function generateStaticParams() {
-  return flagshipProjects.map((project) => ({ slug: project.slug }));
+  return projects.map((project) => ({ slug: project.slug }));
 }
 
 export async function generateMetadata({
@@ -33,12 +35,14 @@ export default async function ProjectEntryPage({
   if (!isProjectSlug(slug)) notFound();
   const project = getProject(slug);
   if (slug === "freight-kpi-tracker") return <FreightProjectPage />;
+  const study = getCaseStudy(slug);
+  if (study) return <CaseStudyPage project={project} study={study} />;
 
   return (
     <>
       <SiteHeader />
       <main id="main-content" className="project-entry-page shell">
-        <Link className="project-entry-page__back" href="/#work">← Back to selected work</Link>
+        <Link className="project-entry-page__back" href={project.tier === "flagship" ? "/#work" : "/#other-work"}>← Back to {project.tier === "flagship" ? "selected" : "other"} work</Link>
         <header className="project-entry-page__header">
           <p className="eyebrow">{project.category} / {project.status}</p>
           <h1>{project.title}</h1>

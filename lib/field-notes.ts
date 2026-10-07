@@ -3,8 +3,8 @@ import type { FieldNote } from "@/lib/types";
 export const fieldNotes = [
   {
     label: "Current build",
-    title: "Turning this portfolio into a set of inspectable project stories.",
-    detail: "The work is being redesigned around real project behavior instead of a reusable portfolio theme.",
+    title: "Streaming, simulation, and the cost of added complexity.",
+    detail: "The newest work asks what a system must survive in production—and whether each extra piece earns its place.",
   },
   {
     label: "Current question",

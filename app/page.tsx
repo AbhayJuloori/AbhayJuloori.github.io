@@ -4,6 +4,7 @@ import { FieldNotes } from "@/components/field-notes";
 import { IntroHero } from "@/components/intro-hero";
 import { LivingProjectGrid } from "@/components/living-project-grid";
 import { SecondarySystems } from "@/components/secondary-systems";
+import { SectionIndicator } from "@/components/section-indicator";
 import { SectionHeading } from "@/components/section-heading";
 import { SiteHeader } from "@/components/site-header";
 
@@ -40,12 +41,12 @@ export default function Home() {
           <LivingProjectGrid />
         </section>
 
-        <section className="section-block shell" aria-labelledby="secondary-title">
+        <section className="section-block shell" id="other-work" aria-labelledby="secondary-title">
           <SectionHeading
             id="secondary-title"
             index="03"
             eyebrow="Other work"
-            title="Smaller systems and tools built to answer a narrower need."
+            title="Earlier case studies, smaller systems, and tools built for a narrower need."
             note="Useful work does not have to pretend it is a flagship case study."
           />
           <SecondarySystems />
@@ -63,6 +64,7 @@ export default function Home() {
         </section>
       </main>
       <ContactFooter />
+      <SectionIndicator />
     </>
   );
 }

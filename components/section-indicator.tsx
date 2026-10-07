@@ -6,6 +6,7 @@ const sections = [
   ["introduction", "Introduction"],
   ["experience", "Experience"],
   ["work", "Selected work"],
+  ["other-work", "Other work"],
   ["notes", "Field notes"],
   ["about", "Contact"],
 ] as const;
