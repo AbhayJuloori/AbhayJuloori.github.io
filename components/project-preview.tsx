@@ -1,6 +1,9 @@
 "use client";
 
+import { FraudPreview } from "@/components/previews/fraud-preview";
 import { FreightPreview } from "@/components/previews/freight-preview";
+import { WarehousePreview } from "@/components/previews/warehouse-preview";
+import { WikiPreview } from "@/components/previews/wiki-preview";
 import { usePreviewVisibility } from "@/hooks/use-preview-visibility";
 import type { PreviewKey } from "@/lib/types";
 
@@ -75,6 +78,9 @@ export function ProjectPreview({ preview }: { preview: PreviewKey }) {
 
   return (
     <div ref={ref} className="project-preview" data-paused={!active}>
+      {preview === "wiki" ? <WikiPreview /> : null}
+      {preview === "warehouse" ? <WarehousePreview /> : null}
+      {preview === "fraud" ? <FraudPreview /> : null}
       {preview === "freight" ? <FreightPreview active={active} /> : null}
       {preview === "retail" ? <RetailStill /> : null}
       {preview === "loan" ? <LoanStill /> : null}

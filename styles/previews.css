@@ -117,6 +117,12 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0.62;
+  white-space: nowrap;
+}
+
+.preview-topline span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .freight-preview {
@@ -312,6 +318,303 @@
 .care-rank-benefit { fill: var(--care-teal); }
 .care-rank-shift { fill: var(--care-coral); }
 
+/* WikiPulse */
+.wiki-preview {
+  background: var(--wiki-paper);
+  color: var(--wiki-ink);
+}
+
+.wiki-preview__label {
+  fill: #72777d;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.wiki-preview__axis,
+.wiki-preview__lane {
+  stroke: #c8ccd1;
+}
+
+.wiki-preview__lane {
+  stroke-dasharray: 3 5;
+}
+
+.wiki-preview__wire {
+  animation: wiki-wire 12s linear infinite;
+}
+
+.wiki-preview__tick {
+  stroke: var(--wiki-blue);
+  stroke-width: 3;
+  opacity: 0.75;
+}
+
+.wiki-preview__tick--flag {
+  stroke: var(--wiki-red);
+  opacity: 1;
+}
+
+.wiki-preview__commit {
+  stroke: var(--wiki-ink);
+  stroke-dasharray: 2 4;
+}
+
+.wiki-preview__dupe {
+  fill: #a2a9b1;
+  animation: wiki-lane 6s linear infinite;
+}
+
+.wiki-preview__late {
+  fill: #e0a62b;
+  animation: wiki-lane 9s 2s linear infinite;
+}
+
+.wiki-preview__card {
+  fill: #fff;
+  stroke: #c8ccd1;
+}
+
+.wiki-preview__rail { fill: #c8ccd1; }
+.wiki-preview__flag { fill: var(--wiki-red); }
+
+.wiki-preview__page {
+  fill: var(--wiki-ink);
+  font-size: 12px;
+}
+
+.wiki-preview__bar { fill: var(--wiki-blue); }
+.wiki-preview__bar--alert { fill: var(--wiki-red); }
+
+.wiki-preview__score {
+  fill: var(--wiki-ink);
+  font-size: 15px;
+}
+
+.wiki-preview__row--1 {
+  animation: wiki-rank 6s ease-in-out infinite;
+}
+
+/* Warehouse digital twin */
+.warehouse-preview {
+  background: var(--warehouse-kraft);
+  color: var(--warehouse-ink);
+}
+
+.warehouse-preview__zone {
+  fill: #f6efe1;
+  stroke: #b9a98c;
+}
+
+.warehouse-preview__label {
+  fill: #7c6d57;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.warehouse-preview__label--light {
+  fill: #f6efe1;
+}
+
+.warehouse-preview__pack {
+  fill: var(--warehouse-ink);
+}
+
+.warehouse-preview__ship {
+  fill: none;
+  stroke: var(--warehouse-ink);
+  stroke-dasharray: 4 4;
+}
+
+.warehouse-preview__route {
+  fill: none;
+  stroke: #b9a98c;
+  stroke-dasharray: 2 6;
+}
+
+.warehouse-preview__picker {
+  fill: var(--warehouse-orange);
+  stroke: #f6efe1;
+  stroke-width: 2;
+}
+
+.warehouse-preview__picker--a {
+  offset-path: path("M48 82H468V156H48V240H500");
+  animation: warehouse-pick 8s linear infinite;
+}
+
+.warehouse-preview__picker--b {
+  offset-path: path("M48 330V156H260V82H468V240H500");
+  animation: warehouse-pick 9s 1.5s linear infinite;
+}
+
+.warehouse-preview__picker--c {
+  offset-path: path("M48 82H468V156H48V240H500");
+  animation: warehouse-pick 8s 4s linear infinite;
+  fill: var(--warehouse-green);
+}
+
+.warehouse-preview__order {
+  fill: var(--warehouse-green);
+  opacity: 0;
+  animation: warehouse-ship 6s linear infinite;
+}
+
+.warehouse-preview__order--two { animation-delay: 2s; }
+.warehouse-preview__order--three { animation-delay: 4s; }
+
+.warehouse-preview__kpis {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid currentColor;
+}
+
+.warehouse-preview__kpis div {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.55rem 0.8rem;
+  border-right: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+}
+
+.warehouse-preview__kpis div:last-child {
+  border-right: 0;
+}
+
+.warehouse-preview__kpis span {
+  font-family: var(--mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.warehouse-preview__kpis strong {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.warehouse-preview__kpi--win {
+  background: var(--warehouse-green);
+  color: #f6efe1;
+}
+
+/* Graph fraud detection */
+.fraud-preview {
+  background: var(--fraud-night);
+  color: #e8edf3;
+}
+
+.fraud-preview__label {
+  fill: var(--fraud-line);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.fraud-preview__edge {
+  stroke: var(--fraud-line);
+  stroke-width: 1.4;
+}
+
+.fraud-preview__node {
+  fill: #e8edf3;
+}
+
+.fraud-preview__node--fraud {
+  fill: var(--fraud-rose);
+}
+
+.fraud-preview__pair {
+  animation: fraud-pair 4.2s ease-in-out infinite;
+}
+
+.fraud-preview__bar {
+  fill: var(--fraud-teal);
+}
+
+.fraud-preview__bar--graph {
+  fill: #6fd0c4;
+  transform-box: fill-box;
+  transform-origin: left;
+  animation: fraud-grow 6s ease-out infinite;
+}
+
+.fraud-preview__value {
+  fill: #e8edf3;
+  font-size: 15px;
+}
+
+.fraud-preview__rule {
+  stroke: #2b3a4f;
+}
+
+.fraud-preview__gate {
+  fill: none;
+  stroke: var(--fraud-line);
+  stroke-dasharray: 3 3;
+}
+
+.fraud-preview__lift {
+  fill: var(--fraud-rose);
+}
+
+.fraud-preview__verdict {
+  fill: none;
+  stroke: var(--fraud-teal);
+  animation: fraud-verdict 6s ease-in-out infinite;
+}
+
+.fraud-preview__verdict-text {
+  fill: var(--fraud-teal);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+@keyframes wiki-wire {
+  to { transform: translateX(-360px); }
+}
+
+@keyframes wiki-lane {
+  from { transform: translateX(0); opacity: 0; }
+  10%, 85% { opacity: 1; }
+  to { transform: translateX(-130px); opacity: 0; }
+}
+
+@keyframes wiki-rank {
+  0%, 60%, 100% { opacity: 1; }
+  70% { opacity: 0.35; }
+}
+
+@keyframes warehouse-pick {
+  from { offset-distance: 0%; }
+  to { offset-distance: 100%; }
+}
+
+@keyframes warehouse-ship {
+  0%, 15% { opacity: 0; transform: translateX(-20px); }
+  30%, 80% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(20px); }
+}
+
+@keyframes fraud-pair {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@keyframes fraud-grow {
+  0% { transform: scaleX(0); }
+  35%, 100% { transform: scaleX(1); }
+}
+
+@keyframes fraud-verdict {
+  0%, 40% { stroke-opacity: 0.25; }
+  55%, 100% { stroke-opacity: 1; }
+}
+
 @keyframes freight-route {
   to { stroke-dashoffset: -48; }
 }
@@ -364,9 +667,44 @@
   .freight-preview__kpi strong {
     font-size: 0.67rem;
   }
+
+  .preview-topline {
+    height: 28px;
+  }
+
+  .preview-topline span + span {
+    display: none;
+  }
+
+  .warehouse-preview__kpis div {
+    padding: 0.35rem 0.5rem;
+  }
+
+  .warehouse-preview__kpis strong {
+    font-size: 0.62rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .wiki-preview__wire,
+  .wiki-preview__dupe,
+  .wiki-preview__late,
+  .wiki-preview__row--1,
+  .warehouse-preview__order,
+  .fraud-preview__pair,
+  .fraud-preview__bar--graph,
+  .fraud-preview__verdict {
+    animation: none;
+  }
+
+  .warehouse-preview__order {
+    opacity: 1;
+  }
+
+  .warehouse-preview__picker {
+    animation: none;
+  }
+
   .freight-preview__route--active,
   .freight-preview__route--alert,
   .freight-preview__node--alert,
