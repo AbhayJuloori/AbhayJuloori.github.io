@@ -8,6 +8,7 @@ const methods = new Set([
   "iqr",
   "lane_week_deviation",
   "service_deterioration",
+  "service_sla_breach",
   "data_quality",
 ]);
 
@@ -113,15 +114,21 @@ export function validateFreightEvidence(raw: unknown): FreightEvidenceBundle {
   }
 
   const lanes = object(bundle.lanes, "lanes");
-  if (!Array.isArray(manifest.representative_lanes)) {
-    fail("manifest.json", "representative_lanes must be an array");
+  if (!Array.isArray(manifest.alert_details)) {
+    fail("manifest.json", "alert_details must be an array");
   }
-  for (const value of manifest.representative_lanes) {
+  const detailIds = new Set<string>();
+  for (const value of manifest.alert_details) {
     const reference = object(value, "manifest.json");
-    const path = string(reference.path, "manifest.json", "representative_lanes.path");
+    const alertId = string(reference.alert_id, "manifest.json", "alert_details.alert_id");
+    const path = string(reference.path, "manifest.json", "alert_details.path");
+    if (!alertIds.has(alertId)) fail("manifest.json", `unknown alert detail ${alertId}`);
+    if (detailIds.has(alertId)) fail("manifest.json", `duplicate alert detail ${alertId}`);
+    detailIds.add(alertId);
     const lane = object(lanes[path], path);
     if (lane.run_id !== runId) fail(path, `run_id does not match manifest (${runId})`);
     if (lane.schema_version !== FREIGHT_SCHEMA_VERSION) fail(path, "schema_version mismatch");
+    if (lane.alert_id !== alertId) fail(path, `alert_id does not match detail (${alertId})`);
     if (!Array.isArray(lane.shipments) || !Array.isArray(lane.flag_evidence)) {
       fail(path, "shipments and flag_evidence must be arrays");
     }
@@ -131,6 +138,9 @@ export function validateFreightEvidence(raw: unknown): FreightEvidenceBundle {
       finite(row.score, path, "flag_evidence.score");
       finite(row.threshold, path, "flag_evidence.threshold");
     }
+  }
+  if (detailIds.size !== alertIds.size) {
+    fail("manifest.json", "every public alert must have one detail file");
   }
   return raw as FreightEvidenceBundle;
 }

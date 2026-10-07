@@ -8,7 +8,7 @@ const parse = async (path) => JSON.parse(await readFile(resolve(root, path), "ut
 
 const manifest = await parse("manifest.json");
 const laneEntries = await Promise.all(
-  manifest.representative_lanes.map(async ({ path }) => [path, await parse(path)]),
+  manifest.alert_details.map(async ({ path }) => [path, await parse(path)]),
 );
 const bundle = validateFreightEvidence({
   manifest,

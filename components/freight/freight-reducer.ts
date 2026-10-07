@@ -46,7 +46,15 @@ export function freightReducer(state: FreightState, action: FreightAction): Frei
         ],
       };
     case "toggle_evidence":
-      return { ...state, evidenceOpen: action.open, mobileStep: action.open ? "evidence" : state.mobileStep };
+      return {
+        ...state,
+        evidenceOpen: action.open,
+        mobileStep: action.open
+          ? "evidence"
+          : state.mobileStep === "evidence"
+            ? "investigation"
+            : state.mobileStep,
+      };
     case "set_mobile_step":
       return { ...state, mobileStep: action.step };
     default: {
