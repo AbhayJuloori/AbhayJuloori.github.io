@@ -6,11 +6,13 @@ export type EvidenceMethod =
   | "iqr"
   | "lane_week_deviation"
   | "service_deterioration"
+  | "service_sla_breach"
   | "data_quality";
 export type MethodFamily =
   | "cost_reconciliation"
   | "lane_cost_trend"
   | "carrier_service_trend"
+  | "service_reconciliation"
   | "data_quality";
 
 export interface FreightManifest {
@@ -18,6 +20,10 @@ export interface FreightManifest {
   schema_version: typeof FREIGHT_SCHEMA_VERSION;
   source_manifest_sha256: string;
   artifact_hashes: Record<string, string>;
+  alert_details: Array<{
+    alert_id: string;
+    path: string;
+  }>;
   representative_lanes: Array<{
     alert_id: string;
     path: string;
@@ -131,6 +137,7 @@ export interface FreightEvaluationFile {
   by_anomaly_type: Array<EvaluationMetrics & { anomaly_type: string }>;
   selected_config: Omit<SensitivityPoint, `config_id` | `selected` | `calibration_${string}` | `evaluation_${string}`>;
   selection_rule: string;
+  review_trigger_methods: EvidenceMethod[];
   sensitivity_grid: SensitivityPoint[];
 }
 
@@ -143,6 +150,7 @@ export interface LaneShipment {
   on_time_flag: 0 | 1;
   transit_days: number;
   flagged: boolean;
+  selected_alert: boolean;
 }
 
 export interface FlagEvidence {
@@ -158,10 +166,15 @@ export interface FlagEvidence {
 export interface FreightLaneFile {
   run_id: string;
   schema_version: typeof FREIGHT_SCHEMA_VERSION;
+  alert_id: string;
   lane_id: string;
   mode: string;
-  representative_role: "high" | "medium" | "data_quality";
+  carrier_scope: string;
+  window_start: string;
+  window_end: string;
+  representative_role: "high" | "medium" | "data_quality" | "alert";
   alert_ids: string[];
+  selected_alert_shipment_count: number;
   shipment_count: number;
   shipments: LaneShipment[];
   flag_evidence: FlagEvidence[];

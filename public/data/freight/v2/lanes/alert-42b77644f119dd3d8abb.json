@@ -1,0 +1,500 @@
+{
+  "alert_id": "ALERT-42B77644F119DD3D8ABB",
+  "alert_ids": [
+    "ALERT-42B77644F119DD3D8ABB"
+  ],
+  "carrier_scope": "CARRIER_006",
+  "flag_evidence": [
+    {
+      "evidence_unit_id": "EVID-6DE0C097CD1819912693",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 5942.333333,
+      "shipment_id": "SHP-00005377",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-3EA7A21B3E3FA2E14D16",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 8723.498888,
+      "shipment_id": "SHP-00026728",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "FLAG-0EB69F41F2FE37BB99E1",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 11768.0,
+      "shipment_id": "SHP-00026728",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-2461D1439BA26C7342F4",
+      "method": "service_sla_breach",
+      "method_family": "service_reconciliation",
+      "reason": "Shipment service-level threshold triggered.",
+      "score": 2.0,
+      "shipment_id": "SHP-00059235",
+      "threshold": 1.0
+    },
+    {
+      "evidence_unit_id": "FLAG-C463EC34EABC137A8373",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 7712.37954,
+      "shipment_id": "SHP-00004119",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "FLAG-0F4694DCFCCC4FFC7AAA",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 10404.0,
+      "shipment_id": "SHP-00004119",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-0B67AA16B19DD4A3708C",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 22477.39066,
+      "shipment_id": "SHP-00010806",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "EVID-F47E69EA534ED5F97298",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 6.277212,
+      "shipment_id": "SHP-00010806",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-557E9DA39D47A44850B7",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 30322.0,
+      "shipment_id": "SHP-00010806",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-CE53B8AD87FDD94E5B0C",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 15336.545589,
+      "shipment_id": "SHP-00020575",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "EVID-2FD55130A443D26C2064",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 3.6795,
+      "shipment_id": "SHP-00020575",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-C41DD985119011DFCAA6",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 20689.0,
+      "shipment_id": "SHP-00020575",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-4EAC77685C521DF019AC",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 13214.974055,
+      "shipment_id": "SHP-00023096",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "EVID-6DE0C097CD1819912693",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 5942.333333,
+      "shipment_id": "SHP-00023096",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-462B8DFA58F66C463352",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 17827.0,
+      "shipment_id": "SHP-00023096",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-EFA62C3DBF378B21E4E4",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 17326.167532,
+      "shipment_id": "SHP-00024139",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "EVID-84CCC92F8E57F9BFB31F",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 9.394029,
+      "shipment_id": "SHP-00024139",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-09B8675D0A4347B165EC",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 23373.0,
+      "shipment_id": "SHP-00024139",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "FLAG-ED235E1A7217694D112E",
+      "method": "iqr",
+      "method_family": "cost_reconciliation",
+      "reason": "IQR upper fence triggered.",
+      "score": 14659.747961,
+      "shipment_id": "SHP-00030607",
+      "threshold": 2.0
+    },
+    {
+      "evidence_unit_id": "EVID-84CCC92F8E57F9BFB31F",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 9.394029,
+      "shipment_id": "SHP-00030607",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-E34941ED9AEBC74B0754",
+      "method": "robust_residual",
+      "method_family": "cost_reconciliation",
+      "reason": "Robust residual threshold triggered.",
+      "score": 19776.0,
+      "shipment_id": "SHP-00030607",
+      "threshold": 4.0
+    },
+    {
+      "evidence_unit_id": "EVID-F47E69EA534ED5F97298",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 6.277212,
+      "shipment_id": "SHP-00035490",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "EVID-6DE0C097CD1819912693",
+      "method": "lane_week_deviation",
+      "method_family": "lane_cost_trend",
+      "reason": "Trailing lane-week deviation threshold triggered.",
+      "score": 5942.333333,
+      "shipment_id": "SHP-00047359",
+      "threshold": 3.5
+    },
+    {
+      "evidence_unit_id": "FLAG-426160CDB5D3D5E5F5EB",
+      "method": "service_sla_breach",
+      "method_family": "service_reconciliation",
+      "reason": "Shipment service-level threshold triggered.",
+      "score": 5.0,
+      "shipment_id": "SHP-00064316",
+      "threshold": 1.0
+    }
+  ],
+  "lane_id": "IN-TX",
+  "mode": "FTL",
+  "representative_role": "alert",
+  "run_id": "2c9e22a8-27ff-4231-b164-f235b3f5a4bd",
+  "schema_version": "2.0.0",
+  "selected_alert_shipment_count": 3,
+  "shipment_count": 24,
+  "shipments": [
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 0,
+      "selected_alert": true,
+      "ship_date": "2024-04-19T00:00:00.000",
+      "shipment_id": "SHP-00026728",
+      "total_cost": 1382.99,
+      "transit_days": 3
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 0,
+      "selected_alert": true,
+      "ship_date": "2024-04-19T00:00:00.000",
+      "shipment_id": "SHP-00059235",
+      "total_cost": 1949.57,
+      "transit_days": 4
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": true,
+      "ship_date": "2024-04-05T00:00:00.000",
+      "shipment_id": "SHP-00005377",
+      "total_cost": 1396.95,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-06-05T00:00:00.000",
+      "shipment_id": "SHP-00020575",
+      "total_cost": 1420.0,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 0,
+      "selected_alert": false,
+      "ship_date": "2024-05-16T00:00:00.000",
+      "shipment_id": "SHP-00064316",
+      "total_cost": 937.72,
+      "transit_days": 7
+    },
+    {
+      "carrier_id": "CARRIER_007",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-05-12T00:00:00.000",
+      "shipment_id": "SHP-00010806",
+      "total_cost": 2724.01,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-05-04T00:00:00.000",
+      "shipment_id": "SHP-00024139",
+      "total_cost": 1383.55,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-30T00:00:00.000",
+      "shipment_id": "SHP-00030607",
+      "total_cost": 2014.47,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-12T00:00:00.000",
+      "shipment_id": "SHP-00004119",
+      "total_cost": 1393.84,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": true,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-01T00:00:00.000",
+      "shipment_id": "SHP-00023096",
+      "total_cost": 1215.19,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_007",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-06-25T00:00:00.000",
+      "shipment_id": "SHP-00067702",
+      "total_cost": 1071.15,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-06-21T00:00:00.000",
+      "shipment_id": "SHP-00001895",
+      "total_cost": 2486.92,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_007",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-06-19T00:00:00.000",
+      "shipment_id": "SHP-00073620",
+      "total_cost": 1872.29,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-06-12T00:00:00.000",
+      "shipment_id": "SHP-00047393",
+      "total_cost": 918.25,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-05-27T00:00:00.000",
+      "shipment_id": "SHP-00072885",
+      "total_cost": 1606.04,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-05-10T00:00:00.000",
+      "shipment_id": "SHP-00035490",
+      "total_cost": 1690.61,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-26T00:00:00.000",
+      "shipment_id": "SHP-00062316",
+      "total_cost": 2511.71,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-24T00:00:00.000",
+      "shipment_id": "SHP-00041819",
+      "total_cost": 2101.3,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-24T00:00:00.000",
+      "shipment_id": "SHP-00060121",
+      "total_cost": 944.57,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_008",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-19T00:00:00.000",
+      "shipment_id": "SHP-00014532",
+      "total_cost": 1989.06,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-19T00:00:00.000",
+      "shipment_id": "SHP-00032239",
+      "total_cost": 1076.31,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_006",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-11T00:00:00.000",
+      "shipment_id": "SHP-00032297",
+      "total_cost": 2178.36,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_005",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-10T00:00:00.000",
+      "shipment_id": "SHP-00044025",
+      "total_cost": 1960.39,
+      "transit_days": 2
+    },
+    {
+      "carrier_id": "CARRIER_007",
+      "flagged": false,
+      "mode": "FTL",
+      "on_time_flag": 1,
+      "selected_alert": false,
+      "ship_date": "2024-04-03T00:00:00.000",
+      "shipment_id": "SHP-00047359",
+      "total_cost": 1087.8,
+      "transit_days": 2
+    }
+  ],
+  "window_end": "2024-04-30T00:00:00",
+  "window_start": "2024-04-01T00:00:00"
+}

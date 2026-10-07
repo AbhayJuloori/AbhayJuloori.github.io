@@ -1,15 +1,7 @@
 {
   "lanes": [
     {
-      "flagged_shipment_count": 47,
-      "lane_id": "OH-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.816327,
-      "shipment_count": 98,
-      "total_spend": 3424.19
-    },
-    {
-      "flagged_shipment_count": 41,
+      "flagged_shipment_count": 29,
       "lane_id": "IN-IL",
       "mode": "LTL",
       "on_time_rate": 0.752577,
@@ -17,31 +9,7 @@
       "total_spend": 46553.49
     },
     {
-      "flagged_shipment_count": 37,
-      "lane_id": "IL-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.954955,
-      "shipment_count": 111,
-      "total_spend": 2969.82
-    },
-    {
-      "flagged_shipment_count": 37,
-      "lane_id": "TX-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 80,
-      "total_spend": 2502.84
-    },
-    {
-      "flagged_shipment_count": 36,
-      "lane_id": "IN-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.88,
-      "shipment_count": 75,
-      "total_spend": 44803.5
-    },
-    {
-      "flagged_shipment_count": 33,
+      "flagged_shipment_count": 29,
       "lane_id": "GA-FL",
       "mode": "PARCEL",
       "on_time_rate": 0.83908,
@@ -49,60 +17,44 @@
       "total_spend": 3072.43
     },
     {
-      "flagged_shipment_count": 29,
-      "lane_id": "MI-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.808824,
-      "shipment_count": 68,
-      "total_spend": 29821.74
+      "flagged_shipment_count": 28,
+      "lane_id": "TX-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 80,
+      "total_spend": 2502.84
     },
     {
       "flagged_shipment_count": 27,
-      "lane_id": "PA-NY",
-      "mode": "LTL",
-      "on_time_rate": 0.933333,
-      "shipment_count": 90,
-      "total_spend": 37831.33
+      "lane_id": "IL-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.954955,
+      "shipment_count": 111,
+      "total_spend": 2969.82
     },
     {
-      "flagged_shipment_count": 27,
+      "flagged_shipment_count": 25,
+      "lane_id": "OH-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.816327,
+      "shipment_count": 98,
+      "total_spend": 3424.19
+    },
+    {
+      "flagged_shipment_count": 25,
+      "lane_id": "IN-IL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.848485,
+      "shipment_count": 99,
+      "total_spend": 3147.1
+    },
+    {
+      "flagged_shipment_count": 22,
       "lane_id": "OH-IN",
       "mode": "LTL",
       "on_time_rate": 0.897436,
       "shipment_count": 78,
       "total_spend": 35500.05
-    },
-    {
-      "flagged_shipment_count": 26,
-      "lane_id": "IL-MO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.846154,
-      "shipment_count": 52,
-      "total_spend": 1701.73
-    },
-    {
-      "flagged_shipment_count": 25,
-      "lane_id": "NY-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.928571,
-      "shipment_count": 56,
-      "total_spend": 109800.41
-    },
-    {
-      "flagged_shipment_count": 24,
-      "lane_id": "MI-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.876712,
-      "shipment_count": 73,
-      "total_spend": 1881.07
-    },
-    {
-      "flagged_shipment_count": 22,
-      "lane_id": "OH-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.945946,
-      "shipment_count": 37,
-      "total_spend": 82343.08
     },
     {
       "flagged_shipment_count": 22,
@@ -113,7 +65,31 @@
       "total_spend": 33945.49
     },
     {
-      "flagged_shipment_count": 22,
+      "flagged_shipment_count": 21,
+      "lane_id": "PA-NY",
+      "mode": "LTL",
+      "on_time_rate": 0.933333,
+      "shipment_count": 90,
+      "total_spend": 37831.33
+    },
+    {
+      "flagged_shipment_count": 20,
+      "lane_id": "OH-IN",
+      "mode": "FTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 66,
+      "total_spend": 134844.32
+    },
+    {
+      "flagged_shipment_count": 20,
+      "lane_id": "MI-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.808824,
+      "shipment_count": 68,
+      "total_spend": 29821.74
+    },
+    {
+      "flagged_shipment_count": 20,
       "lane_id": "NY-PA",
       "mode": "PARCEL",
       "on_time_rate": 0.7,
@@ -121,36 +97,12 @@
       "total_spend": 2683.39
     },
     {
-      "flagged_shipment_count": 21,
-      "lane_id": "TX-NC",
-      "mode": "LTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 63,
-      "total_spend": 36955.19
-    },
-    {
-      "flagged_shipment_count": 21,
-      "lane_id": "IN-IL",
+      "flagged_shipment_count": 20,
+      "lane_id": "MI-IN",
       "mode": "PARCEL",
-      "on_time_rate": 0.848485,
-      "shipment_count": 99,
-      "total_spend": 3147.1
-    },
-    {
-      "flagged_shipment_count": 21,
-      "lane_id": "IN-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.938462,
-      "shipment_count": 65,
-      "total_spend": 1909.52
-    },
-    {
-      "flagged_shipment_count": 19,
-      "lane_id": "IN-OH",
-      "mode": "FTL",
-      "on_time_rate": 0.928571,
-      "shipment_count": 56,
-      "total_spend": 112749.3
+      "on_time_rate": 0.876712,
+      "shipment_count": 73,
+      "total_spend": 1881.07
     },
     {
       "flagged_shipment_count": 19,
@@ -162,38 +114,14 @@
     },
     {
       "flagged_shipment_count": 18,
-      "lane_id": "OH-IN",
-      "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 66,
-      "total_spend": 134844.32
+      "lane_id": "IN-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.88,
+      "shipment_count": 75,
+      "total_spend": 44803.5
     },
     {
       "flagged_shipment_count": 18,
-      "lane_id": "OH-PA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.945455,
-      "shipment_count": 55,
-      "total_spend": 2058.5
-    },
-    {
-      "flagged_shipment_count": 17,
-      "lane_id": "MI-IN",
-      "mode": "FTL",
-      "on_time_rate": 0.954545,
-      "shipment_count": 44,
-      "total_spend": 75812.4
-    },
-    {
-      "flagged_shipment_count": 17,
-      "lane_id": "MI-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.952381,
-      "shipment_count": 63,
-      "total_spend": 2170.2
-    },
-    {
-      "flagged_shipment_count": 16,
       "lane_id": "TX-NY",
       "mode": "LTL",
       "on_time_rate": 0.666667,
@@ -201,39 +129,47 @@
       "total_spend": 21128.57
     },
     {
-      "flagged_shipment_count": 15,
-      "lane_id": "OH-PA",
-      "mode": "LTL",
-      "on_time_rate": 0.916667,
-      "shipment_count": 48,
-      "total_spend": 21310.65
-    },
-    {
-      "flagged_shipment_count": 15,
-      "lane_id": "MI-IL",
-      "mode": "LTL",
-      "on_time_rate": 0.90625,
-      "shipment_count": 32,
-      "total_spend": 21301.68
-    },
-    {
-      "flagged_shipment_count": 15,
-      "lane_id": "IL-CA",
-      "mode": "LTL",
-      "on_time_rate": 0.828571,
-      "shipment_count": 35,
-      "total_spend": 14646.46
-    },
-    {
-      "flagged_shipment_count": 15,
-      "lane_id": "MO-IL",
+      "flagged_shipment_count": 18,
+      "lane_id": "IL-MO",
       "mode": "PARCEL",
-      "on_time_rate": 0.901639,
-      "shipment_count": 61,
-      "total_spend": 1870.65
+      "on_time_rate": 0.846154,
+      "shipment_count": 52,
+      "total_spend": 1701.73
     },
     {
-      "flagged_shipment_count": 14,
+      "flagged_shipment_count": 17,
+      "lane_id": "IN-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.928571,
+      "shipment_count": 56,
+      "total_spend": 112749.3
+    },
+    {
+      "flagged_shipment_count": 17,
+      "lane_id": "FL-GA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.704545,
+      "shipment_count": 44,
+      "total_spend": 1341.3
+    },
+    {
+      "flagged_shipment_count": 16,
+      "lane_id": "NY-PA",
+      "mode": "LTL",
+      "on_time_rate": 0.741573,
+      "shipment_count": 89,
+      "total_spend": 47088.15
+    },
+    {
+      "flagged_shipment_count": 16,
+      "lane_id": "IN-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.938462,
+      "shipment_count": 65,
+      "total_spend": 1909.52
+    },
+    {
+      "flagged_shipment_count": 15,
       "lane_id": "IL-IN",
       "mode": "FTL",
       "on_time_rate": 0.910448,
@@ -241,7 +177,31 @@
       "total_spend": 115275.6
     },
     {
+      "flagged_shipment_count": 15,
+      "lane_id": "OH-IL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.741935,
+      "shipment_count": 31,
+      "total_spend": 793.8
+    },
+    {
       "flagged_shipment_count": 14,
+      "lane_id": "TN-GA",
+      "mode": "LTL",
+      "on_time_rate": 0.807692,
+      "shipment_count": 52,
+      "total_spend": 22281.65
+    },
+    {
+      "flagged_shipment_count": 13,
+      "lane_id": "NY-PA",
+      "mode": "FTL",
+      "on_time_rate": 0.928571,
+      "shipment_count": 56,
+      "total_spend": 109800.41
+    },
+    {
+      "flagged_shipment_count": 13,
       "lane_id": "GA-FL",
       "mode": "FTL",
       "on_time_rate": 0.875,
@@ -249,28 +209,12 @@
       "total_spend": 108772.47
     },
     {
-      "flagged_shipment_count": 14,
-      "lane_id": "PA-MD",
-      "mode": "LTL",
-      "on_time_rate": 0.828125,
-      "shipment_count": 64,
-      "total_spend": 35762.25
-    },
-    {
       "flagged_shipment_count": 13,
-      "lane_id": "OR-WA",
+      "lane_id": "OH-PA",
       "mode": "FTL",
-      "on_time_rate": 0.906977,
-      "shipment_count": 43,
-      "total_spend": 85241.18
-    },
-    {
-      "flagged_shipment_count": 13,
-      "lane_id": "IL-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.872549,
-      "shipment_count": 102,
-      "total_spend": 45366.91
+      "on_time_rate": 0.945946,
+      "shipment_count": 37,
+      "total_spend": 82343.08
     },
     {
       "flagged_shipment_count": 13,
@@ -282,70 +226,38 @@
     },
     {
       "flagged_shipment_count": 13,
-      "lane_id": "TN-GA",
+      "lane_id": "TX-NC",
       "mode": "LTL",
-      "on_time_rate": 0.807692,
-      "shipment_count": 52,
-      "total_spend": 22281.65
+      "on_time_rate": 0.857143,
+      "shipment_count": 63,
+      "total_spend": 36955.19
     },
     {
       "flagged_shipment_count": 13,
-      "lane_id": "CA-OR",
-      "mode": "LTL",
-      "on_time_rate": 0.92,
-      "shipment_count": 25,
-      "total_spend": 12899.42
-    },
-    {
-      "flagged_shipment_count": 13,
-      "lane_id": "TX-CA",
+      "lane_id": "MO-IL",
       "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 53,
-      "total_spend": 1684.12
-    },
-    {
-      "flagged_shipment_count": 13,
-      "lane_id": "IL-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.92,
-      "shipment_count": 50,
-      "total_spend": 1639.22
-    },
-    {
-      "flagged_shipment_count": 13,
-      "lane_id": "FL-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.704545,
-      "shipment_count": 44,
-      "total_spend": 1341.3
-    },
-    {
-      "flagged_shipment_count": 13,
-      "lane_id": "TX-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.882353,
-      "shipment_count": 34,
-      "total_spend": 1050.32
+      "on_time_rate": 0.901639,
+      "shipment_count": 61,
+      "total_spend": 1870.65
     },
     {
       "flagged_shipment_count": 12,
-      "lane_id": "IL-MI",
-      "mode": "FTL",
-      "on_time_rate": 0.944444,
-      "shipment_count": 36,
-      "total_spend": 71651.29
-    },
-    {
-      "flagged_shipment_count": 12,
-      "lane_id": "TX-CA",
+      "lane_id": "PA-MD",
       "mode": "LTL",
-      "on_time_rate": 0.907692,
-      "shipment_count": 65,
-      "total_spend": 42266.08
+      "on_time_rate": 0.828125,
+      "shipment_count": 64,
+      "total_spend": 35762.25
     },
     {
       "flagged_shipment_count": 12,
+      "lane_id": "OH-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.945455,
+      "shipment_count": 55,
+      "total_spend": 2058.5
+    },
+    {
+      "flagged_shipment_count": 11,
       "lane_id": "AZ-CA",
       "mode": "LTL",
       "on_time_rate": 0.829268,
@@ -353,140 +265,44 @@
       "total_spend": 18579.33
     },
     {
-      "flagged_shipment_count": 12,
-      "lane_id": "MA-NY",
+      "flagged_shipment_count": 11,
+      "lane_id": "CA-OR",
       "mode": "LTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 32,
-      "total_spend": 13834.38
+      "on_time_rate": 0.92,
+      "shipment_count": 25,
+      "total_spend": 12899.42
     },
     {
-      "flagged_shipment_count": 12,
-      "lane_id": "MN-IN",
+      "flagged_shipment_count": 11,
+      "lane_id": "KY-TN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.842105,
+      "shipment_count": 38,
+      "total_spend": 955.79
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "IN-IL",
+      "mode": "FTL",
+      "on_time_rate": 0.898551,
+      "shipment_count": 69,
+      "total_spend": 153817.07
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "IL-IN",
       "mode": "LTL",
-      "on_time_rate": 0.966667,
-      "shipment_count": 30,
-      "total_spend": 13433.78
+      "on_time_rate": 0.872549,
+      "shipment_count": 102,
+      "total_spend": 45366.91
     },
     {
-      "flagged_shipment_count": 12,
-      "lane_id": "MN-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.888889,
-      "shipment_count": 54,
-      "total_spend": 1520.87
-    },
-    {
-      "flagged_shipment_count": 12,
-      "lane_id": "CA-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.928571,
-      "shipment_count": 42,
-      "total_spend": 1127.21
-    },
-    {
-      "flagged_shipment_count": 12,
-      "lane_id": "TX-NY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.864865,
-      "shipment_count": 37,
-      "total_spend": 1122.88
-    },
-    {
-      "flagged_shipment_count": 12,
+      "flagged_shipment_count": 10,
       "lane_id": "MO-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.878788,
-      "shipment_count": 33,
-      "total_spend": 1035.28
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "PA-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.821429,
-      "shipment_count": 56,
-      "total_spend": 26193.17
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "OH-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.722222,
-      "shipment_count": 54,
-      "total_spend": 24547.79
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "GA-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.808511,
-      "shipment_count": 47,
-      "total_spend": 22155.04
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "TX-FL",
-      "mode": "LTL",
-      "on_time_rate": 0.935484,
-      "shipment_count": 31,
-      "total_spend": 21356.47
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "FL-GA",
-      "mode": "LTL",
-      "on_time_rate": 0.794872,
-      "shipment_count": 39,
-      "total_spend": 15464.07
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "MI-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.862069,
-      "shipment_count": 29,
-      "total_spend": 1009.87
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "TN-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 24,
-      "total_spend": 874.26
-    },
-    {
-      "flagged_shipment_count": 11,
-      "lane_id": "TX-PA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.916667,
-      "shipment_count": 24,
-      "total_spend": 736.89
-    },
-    {
-      "flagged_shipment_count": 10,
-      "lane_id": "TX-NC",
       "mode": "FTL",
-      "on_time_rate": 0.914894,
-      "shipment_count": 47,
-      "total_spend": 98620.54
-    },
-    {
-      "flagged_shipment_count": 10,
-      "lane_id": "MN-IN",
-      "mode": "FTL",
-      "on_time_rate": 0.878788,
-      "shipment_count": 33,
-      "total_spend": 62196.7
-    },
-    {
-      "flagged_shipment_count": 10,
-      "lane_id": "IN-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 24,
-      "total_spend": 39313.05
+      "on_time_rate": 0.764706,
+      "shipment_count": 17,
+      "total_spend": 32171.52
     },
     {
       "flagged_shipment_count": 10,
@@ -498,35 +314,59 @@
     },
     {
       "flagged_shipment_count": 10,
+      "lane_id": "PA-MD",
+      "mode": "PARCEL",
+      "on_time_rate": 0.915493,
+      "shipment_count": 71,
+      "total_spend": 2327.55
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "MI-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.952381,
+      "shipment_count": 63,
+      "total_spend": 2170.2
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "MN-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.888889,
+      "shipment_count": 54,
+      "total_spend": 1520.87
+    },
+    {
+      "flagged_shipment_count": 10,
       "lane_id": "TN-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.815789,
+      "mode": "PARCEL",
+      "on_time_rate": 0.868421,
       "shipment_count": 38,
-      "total_spend": 20906.67
+      "total_spend": 1251.09
     },
     {
       "flagged_shipment_count": 10,
-      "lane_id": "IL-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.848485,
+      "lane_id": "CA-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.928571,
+      "shipment_count": 42,
+      "total_spend": 1127.21
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "TX-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.882353,
+      "shipment_count": 34,
+      "total_spend": 1050.32
+    },
+    {
+      "flagged_shipment_count": 10,
+      "lane_id": "MO-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.878788,
       "shipment_count": 33,
-      "total_spend": 18555.66
-    },
-    {
-      "flagged_shipment_count": 10,
-      "lane_id": "GA-NC",
-      "mode": "LTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 28,
-      "total_spend": 17169.79
-    },
-    {
-      "flagged_shipment_count": 10,
-      "lane_id": "IL-MN",
-      "mode": "LTL",
-      "on_time_rate": 0.782609,
-      "shipment_count": 23,
-      "total_spend": 14264.5
+      "total_spend": 1035.28
     },
     {
       "flagged_shipment_count": 9,
@@ -538,51 +378,51 @@
     },
     {
       "flagged_shipment_count": 9,
-      "lane_id": "MO-IL",
+      "lane_id": "IN-TX",
       "mode": "FTL",
-      "on_time_rate": 0.911765,
-      "shipment_count": 34,
-      "total_spend": 67931.1
+      "on_time_rate": 0.875,
+      "shipment_count": 24,
+      "total_spend": 39313.05
     },
     {
       "flagged_shipment_count": 9,
-      "lane_id": "OR-WA",
+      "lane_id": "TX-NY",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 20,
+      "total_spend": 34918.96
+    },
+    {
+      "flagged_shipment_count": 9,
+      "lane_id": "MI-IL",
       "mode": "LTL",
-      "on_time_rate": 0.87037,
-      "shipment_count": 54,
-      "total_spend": 34246.86
+      "on_time_rate": 0.90625,
+      "shipment_count": 32,
+      "total_spend": 21301.68
     },
     {
       "flagged_shipment_count": 9,
-      "lane_id": "KY-TN",
+      "lane_id": "MO-IL",
       "mode": "LTL",
-      "on_time_rate": 0.888889,
-      "shipment_count": 36,
-      "total_spend": 19055.03
+      "on_time_rate": 0.736842,
+      "shipment_count": 38,
+      "total_spend": 19650.56
     },
     {
       "flagged_shipment_count": 9,
-      "lane_id": "IL-MI",
+      "lane_id": "IL-CA",
       "mode": "LTL",
-      "on_time_rate": 0.83871,
-      "shipment_count": 31,
-      "total_spend": 18575.49
+      "on_time_rate": 0.828571,
+      "shipment_count": 35,
+      "total_spend": 14646.46
     },
     {
       "flagged_shipment_count": 9,
-      "lane_id": "GA-TX",
-      "mode": "LTL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 21,
-      "total_spend": 7390.69
-    },
-    {
-      "flagged_shipment_count": 9,
-      "lane_id": "WA-OR",
+      "lane_id": "IN-OH",
       "mode": "PARCEL",
-      "on_time_rate": 0.907692,
-      "shipment_count": 65,
-      "total_spend": 1964.49
+      "on_time_rate": 0.825,
+      "shipment_count": 80,
+      "total_spend": 2384.91
     },
     {
       "flagged_shipment_count": 9,
@@ -593,52 +433,28 @@
       "total_spend": 1674.61
     },
     {
-      "flagged_shipment_count": 9,
-      "lane_id": "OH-KY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 48,
-      "total_spend": 1640.29
-    },
-    {
-      "flagged_shipment_count": 9,
-      "lane_id": "MN-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.88,
-      "shipment_count": 25,
-      "total_spend": 806.83
-    },
-    {
       "flagged_shipment_count": 8,
-      "lane_id": "IN-IL",
+      "lane_id": "MI-IN",
       "mode": "FTL",
-      "on_time_rate": 0.898551,
-      "shipment_count": 69,
-      "total_spend": 153817.07
+      "on_time_rate": 0.954545,
+      "shipment_count": 44,
+      "total_spend": 75812.4
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "GA-TN",
-      "mode": "FTL",
-      "on_time_rate": 0.866667,
-      "shipment_count": 30,
-      "total_spend": 52661.11
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "GA-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.821429,
-      "shipment_count": 28,
-      "total_spend": 50573.27
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "NY-PA",
+      "lane_id": "MI-OH",
       "mode": "LTL",
-      "on_time_rate": 0.741573,
-      "shipment_count": 89,
-      "total_spend": 47088.15
+      "on_time_rate": 0.830769,
+      "shipment_count": 65,
+      "total_spend": 37624.27
+    },
+    {
+      "flagged_shipment_count": 8,
+      "lane_id": "OH-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.722222,
+      "shipment_count": 54,
+      "total_spend": 24547.79
     },
     {
       "flagged_shipment_count": 8,
@@ -658,35 +474,51 @@
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "IN-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.825,
-      "shipment_count": 80,
-      "total_spend": 2384.91
+      "lane_id": "KY-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.888889,
+      "shipment_count": 36,
+      "total_spend": 19055.03
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "KY-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.825,
-      "shipment_count": 40,
-      "total_spend": 1281.47
+      "lane_id": "FL-GA",
+      "mode": "LTL",
+      "on_time_rate": 0.794872,
+      "shipment_count": 39,
+      "total_spend": 15464.07
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "TN-KY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.868421,
-      "shipment_count": 38,
-      "total_spend": 1251.09
+      "lane_id": "IL-MN",
+      "mode": "LTL",
+      "on_time_rate": 0.782609,
+      "shipment_count": 23,
+      "total_spend": 14264.5
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "CA-AZ",
+      "lane_id": "MN-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.966667,
+      "shipment_count": 30,
+      "total_spend": 13433.78
+    },
+    {
+      "flagged_shipment_count": 8,
+      "lane_id": "GA-IL",
+      "mode": "LTL",
+      "on_time_rate": 0.705882,
+      "shipment_count": 17,
+      "total_spend": 7072.81
+    },
+    {
+      "flagged_shipment_count": 8,
+      "lane_id": "OH-KY",
       "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 43,
-      "total_spend": 1243.64
+      "on_time_rate": 0.833333,
+      "shipment_count": 48,
+      "total_spend": 1640.29
     },
     {
       "flagged_shipment_count": 8,
@@ -698,51 +530,19 @@
     },
     {
       "flagged_shipment_count": 8,
-      "lane_id": "KY-TN",
+      "lane_id": "TX-PA",
       "mode": "PARCEL",
-      "on_time_rate": 0.842105,
-      "shipment_count": 38,
-      "total_spend": 955.79
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "TX-FL",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 31,
-      "total_spend": 950.3
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "OH-IL",
-      "mode": "PARCEL",
-      "on_time_rate": 0.741935,
-      "shipment_count": 31,
-      "total_spend": 793.8
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "KY-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.942857,
-      "shipment_count": 35,
-      "total_spend": 754.49
-    },
-    {
-      "flagged_shipment_count": 8,
-      "lane_id": "IL-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.84,
-      "shipment_count": 25,
-      "total_spend": 598.69
+      "on_time_rate": 0.916667,
+      "shipment_count": 24,
+      "total_spend": 736.89
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "TX-CA",
+      "lane_id": "PA-MD",
       "mode": "FTL",
-      "on_time_rate": 0.822222,
-      "shipment_count": 45,
-      "total_spend": 89386.05
+      "on_time_rate": 0.789474,
+      "shipment_count": 57,
+      "total_spend": 127432.63
     },
     {
       "flagged_shipment_count": 7,
@@ -754,83 +554,83 @@
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "OH-KY",
+      "lane_id": "WA-CA",
       "mode": "FTL",
-      "on_time_rate": 0.818182,
+      "on_time_rate": 0.833333,
+      "shipment_count": 24,
+      "total_spend": 42755.79
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "TX-FL",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 21,
+      "total_spend": 41791.84
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "CA-IL",
+      "mode": "FTL",
+      "on_time_rate": 0.785714,
+      "shipment_count": 14,
+      "total_spend": 33641.13
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "TX-FL",
+      "mode": "LTL",
+      "on_time_rate": 0.935484,
+      "shipment_count": 31,
+      "total_spend": 21356.47
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "TN-KY",
+      "mode": "LTL",
+      "on_time_rate": 0.815789,
+      "shipment_count": 38,
+      "total_spend": 20906.67
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "KY-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.942857,
+      "shipment_count": 35,
+      "total_spend": 19725.06
+    },
+    {
+      "flagged_shipment_count": 7,
+      "lane_id": "IL-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.848485,
       "shipment_count": 33,
-      "total_spend": 60007.12
+      "total_spend": 18555.66
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "FL-GA",
-      "mode": "FTL",
-      "on_time_rate": 0.862069,
-      "shipment_count": 29,
-      "total_spend": 55099.59
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "IL-TX",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 23,
-      "total_spend": 49971.32
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "OH-MI",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 28,
-      "total_spend": 49263.73
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "IN-MI",
+      "lane_id": "MA-NY",
       "mode": "LTL",
-      "on_time_rate": 0.862745,
-      "shipment_count": 51,
-      "total_spend": 21713.09
+      "on_time_rate": 0.875,
+      "shipment_count": 32,
+      "total_spend": 13834.38
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "CA-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 22,
-      "total_spend": 11798.59
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "KY-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.9,
-      "shipment_count": 20,
-      "total_spend": 10139.49
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "OH-TX",
-      "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 18,
-      "total_spend": 5491.19
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "IN-KY",
+      "lane_id": "OR-WA",
       "mode": "PARCEL",
-      "on_time_rate": 0.886364,
-      "shipment_count": 44,
-      "total_spend": 1423.75
+      "on_time_rate": 0.907895,
+      "shipment_count": 76,
+      "total_spend": 2678.57
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "GA-NC",
+      "lane_id": "TX-NY",
       "mode": "PARCEL",
-      "on_time_rate": 0.966667,
-      "shipment_count": 30,
-      "total_spend": 945.6
+      "on_time_rate": 0.864865,
+      "shipment_count": 37,
+      "total_spend": 1122.88
     },
     {
       "flagged_shipment_count": 7,
@@ -842,35 +642,27 @@
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "CA-WA",
+      "lane_id": "TX-UT",
       "mode": "PARCEL",
-      "on_time_rate": 0.923077,
-      "shipment_count": 26,
-      "total_spend": 737.52
+      "on_time_rate": 0.833333,
+      "shipment_count": 24,
+      "total_spend": 688.55
     },
     {
       "flagged_shipment_count": 7,
-      "lane_id": "FL-NY",
+      "lane_id": "IL-GA",
       "mode": "PARCEL",
-      "on_time_rate": 0.863636,
-      "shipment_count": 22,
-      "total_spend": 514.54
+      "on_time_rate": 0.84,
+      "shipment_count": 25,
+      "total_spend": 598.69
     },
     {
-      "flagged_shipment_count": 7,
-      "lane_id": "CA-KY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.9,
-      "shipment_count": 10,
-      "total_spend": 369.12
-    },
-    {
-      "flagged_shipment_count": 7,
-      "lane_id": "FL-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 11,
-      "total_spend": 320.44
+      "flagged_shipment_count": 6,
+      "lane_id": "TX-CA",
+      "mode": "FTL",
+      "on_time_rate": 0.822222,
+      "shipment_count": 45,
+      "total_spend": 89386.05
     },
     {
       "flagged_shipment_count": 6,
@@ -882,147 +674,75 @@
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "WA-CA",
+      "lane_id": "MN-IN",
       "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 24,
-      "total_spend": 42755.79
+      "on_time_rate": 0.878788,
+      "shipment_count": 33,
+      "total_spend": 62196.7
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "OH-NY",
+      "lane_id": "IN-KY",
       "mode": "FTL",
-      "on_time_rate": 0.947368,
-      "shipment_count": 19,
-      "total_spend": 36202.32
+      "on_time_rate": 0.826087,
+      "shipment_count": 23,
+      "total_spend": 54531.99
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "CA-IL",
+      "lane_id": "GA-NC",
       "mode": "FTL",
-      "on_time_rate": 0.785714,
-      "shipment_count": 14,
-      "total_spend": 33641.13
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "MO-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.764706,
-      "shipment_count": 17,
-      "total_spend": 32171.52
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "OR-CA",
-      "mode": "FTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 18,
-      "total_spend": 32111.94
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "KY-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.942857,
-      "shipment_count": 35,
-      "total_spend": 19725.06
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "MO-IL",
-      "mode": "LTL",
-      "on_time_rate": 0.736842,
-      "shipment_count": 38,
-      "total_spend": 19650.56
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "NC-GA",
-      "mode": "LTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 27,
-      "total_spend": 12411.65
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "IN-NC",
-      "mode": "LTL",
-      "on_time_rate": 0.823529,
-      "shipment_count": 17,
-      "total_spend": 9081.05
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "UT-CA",
-      "mode": "LTL",
-      "on_time_rate": 0.882353,
-      "shipment_count": 17,
-      "total_spend": 8732.22
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "TX-MO",
-      "mode": "LTL",
-      "on_time_rate": 0.961538,
-      "shipment_count": 26,
-      "total_spend": 8638.78
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "OH-CA",
-      "mode": "LTL",
-      "on_time_rate": 0.909091,
-      "shipment_count": 11,
-      "total_spend": 6980.58
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "IL-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.888889,
-      "shipment_count": 18,
-      "total_spend": 6451.07
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "MO-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.909091,
-      "shipment_count": 11,
-      "total_spend": 4742.06
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "PA-MD",
-      "mode": "PARCEL",
-      "on_time_rate": 0.915493,
-      "shipment_count": 71,
-      "total_spend": 2327.55
+      "on_time_rate": 0.821429,
+      "shipment_count": 28,
+      "total_spend": 50573.27
     },
     {
       "flagged_shipment_count": 6,
       "lane_id": "GA-TN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.906977,
-      "shipment_count": 43,
-      "total_spend": 1044.41
+      "mode": "LTL",
+      "on_time_rate": 0.808511,
+      "shipment_count": 47,
+      "total_spend": 22155.04
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "KY-IL",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 19,
-      "total_spend": 721.04
+      "lane_id": "MI-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.777778,
+      "shipment_count": 9,
+      "total_spend": 3750.39
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "TX-UT",
+      "lane_id": "IL-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.92,
+      "shipment_count": 50,
+      "total_spend": 1639.22
+    },
+    {
+      "flagged_shipment_count": 6,
+      "lane_id": "MI-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.862069,
+      "shipment_count": 29,
+      "total_spend": 1009.87
+    },
+    {
+      "flagged_shipment_count": 6,
+      "lane_id": "TN-NC",
       "mode": "PARCEL",
       "on_time_rate": 0.833333,
       "shipment_count": 24,
-      "total_spend": 688.55
+      "total_spend": 874.26
+    },
+    {
+      "flagged_shipment_count": 6,
+      "lane_id": "IN-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.866667,
+      "shipment_count": 30,
+      "total_spend": 651.3
     },
     {
       "flagged_shipment_count": 6,
@@ -1034,27 +754,19 @@
     },
     {
       "flagged_shipment_count": 6,
-      "lane_id": "NC-PA",
+      "lane_id": "KY-GA",
       "mode": "PARCEL",
-      "on_time_rate": 0.894737,
-      "shipment_count": 19,
-      "total_spend": 497.96
-    },
-    {
-      "flagged_shipment_count": 6,
-      "lane_id": "FL-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.916667,
-      "shipment_count": 12,
-      "total_spend": 385.02
+      "on_time_rate": 0.888889,
+      "shipment_count": 9,
+      "total_spend": 270.77
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "PA-MD",
+      "lane_id": "TX-NC",
       "mode": "FTL",
-      "on_time_rate": 0.789474,
-      "shipment_count": 57,
-      "total_spend": 127432.63
+      "on_time_rate": 0.914894,
+      "shipment_count": 47,
+      "total_spend": 98620.54
     },
     {
       "flagged_shipment_count": 5,
@@ -1066,35 +778,51 @@
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "MI-OH",
+      "lane_id": "AZ-CA",
       "mode": "FTL",
-      "on_time_rate": 0.820513,
-      "shipment_count": 39,
-      "total_spend": 86190.62
+      "on_time_rate": 0.918919,
+      "shipment_count": 37,
+      "total_spend": 68783.02
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "CA-AZ",
+      "lane_id": "OR-CA",
       "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 27,
-      "total_spend": 56367.29
+      "on_time_rate": 0.777778,
+      "shipment_count": 18,
+      "total_spend": 32111.94
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "TX-NY",
+      "lane_id": "NC-GA",
       "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 20,
-      "total_spend": 34918.96
+      "on_time_rate": 0.866667,
+      "shipment_count": 15,
+      "total_spend": 30299.62
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "OH-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 14,
-      "total_spend": 29586.4
+      "lane_id": "PA-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.821429,
+      "shipment_count": 56,
+      "total_spend": 26193.17
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "MD-PA",
+      "mode": "LTL",
+      "on_time_rate": 0.880952,
+      "shipment_count": 42,
+      "total_spend": 17539.59
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "CA-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 22,
+      "total_spend": 11798.59
     },
     {
       "flagged_shipment_count": 5,
@@ -1106,27 +834,35 @@
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "IN-TX",
+      "lane_id": "TX-IL",
       "mode": "LTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 20,
-      "total_spend": 9923.62
+      "on_time_rate": 0.947368,
+      "shipment_count": 19,
+      "total_spend": 8391.46
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "TX-CO",
+      "lane_id": "MO-TX",
       "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 15,
-      "total_spend": 9581.02
+      "on_time_rate": 0.695652,
+      "shipment_count": 23,
+      "total_spend": 7843.34
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "MI-MN",
+      "lane_id": "NC-FL",
       "mode": "LTL",
-      "on_time_rate": 0.727273,
-      "shipment_count": 11,
-      "total_spend": 8448.38
+      "on_time_rate": 0.764706,
+      "shipment_count": 17,
+      "total_spend": 7542.08
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "GA-TX",
+      "mode": "LTL",
+      "on_time_rate": 0.714286,
+      "shipment_count": 21,
+      "total_spend": 7390.69
     },
     {
       "flagged_shipment_count": 5,
@@ -1138,19 +874,35 @@
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "GA-IL",
+      "lane_id": "WA-CA",
       "mode": "LTL",
-      "on_time_rate": 0.705882,
-      "shipment_count": 17,
-      "total_spend": 7072.81
+      "on_time_rate": 0.789474,
+      "shipment_count": 19,
+      "total_spend": 7104.16
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "KY-TX",
+      "lane_id": "NY-MA",
+      "mode": "LTL",
+      "on_time_rate": 0.842105,
+      "shipment_count": 19,
+      "total_spend": 6824.48
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "GA-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.4,
+      "shipment_count": 10,
+      "total_spend": 5691.08
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "OH-TX",
       "mode": "LTL",
       "on_time_rate": 1.0,
-      "shipment_count": 12,
-      "total_spend": 5334.16
+      "shipment_count": 18,
+      "total_spend": 5491.19
     },
     {
       "flagged_shipment_count": 5,
@@ -1162,83 +914,107 @@
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "MI-TN",
-      "mode": "LTL",
+      "lane_id": "TX-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 53,
+      "total_spend": 1684.12
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "MN-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.88,
+      "shipment_count": 25,
+      "total_spend": 806.83
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "KY-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.942857,
+      "shipment_count": 35,
+      "total_spend": 754.49
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "TX-TN",
+      "mode": "PARCEL",
       "on_time_rate": 0.777778,
-      "shipment_count": 9,
-      "total_spend": 3750.39
+      "shipment_count": 27,
+      "total_spend": 543.02
     },
     {
       "flagged_shipment_count": 5,
-      "lane_id": "TX-MN",
+      "lane_id": "FL-NY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.863636,
+      "shipment_count": 22,
+      "total_spend": 514.54
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "IN-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.642857,
+      "shipment_count": 14,
+      "total_spend": 454.0
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "CA-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.9,
+      "shipment_count": 10,
+      "total_spend": 369.12
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "TX-CO",
+      "mode": "PARCEL",
+      "on_time_rate": 0.692308,
+      "shipment_count": 13,
+      "total_spend": 327.21
+    },
+    {
+      "flagged_shipment_count": 5,
+      "lane_id": "MO-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 9,
+      "total_spend": 308.47
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "MO-IL",
+      "mode": "FTL",
+      "on_time_rate": 0.911765,
+      "shipment_count": 34,
+      "total_spend": 67931.1
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "FL-GA",
+      "mode": "FTL",
+      "on_time_rate": 0.862069,
+      "shipment_count": 29,
+      "total_spend": 55099.59
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "OH-MI",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 28,
+      "total_spend": 49263.73
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "TX-CA",
       "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 8,
-      "total_spend": 3604.61
-    },
-    {
-      "flagged_shipment_count": 5,
-      "lane_id": "PA-NY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.987805,
-      "shipment_count": 82,
-      "total_spend": 2205.0
-    },
-    {
-      "flagged_shipment_count": 5,
-      "lane_id": "NC-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.875,
-      "shipment_count": 16,
-      "total_spend": 787.22
-    },
-    {
-      "flagged_shipment_count": 5,
-      "lane_id": "IN-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.866667,
-      "shipment_count": 30,
-      "total_spend": 651.3
-    },
-    {
-      "flagged_shipment_count": 5,
-      "lane_id": "KY-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.882353,
-      "shipment_count": 17,
-      "total_spend": 574.37
-    },
-    {
-      "flagged_shipment_count": 5,
-      "lane_id": "KY-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.888889,
-      "shipment_count": 9,
-      "total_spend": 270.77
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "IN-KY",
-      "mode": "FTL",
-      "on_time_rate": 0.826087,
-      "shipment_count": 23,
-      "total_spend": 54531.99
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "TN-GA",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 21,
-      "total_spend": 42761.64
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "TN-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.842105,
-      "shipment_count": 19,
-      "total_spend": 41315.38
+      "on_time_rate": 0.907692,
+      "shipment_count": 65,
+      "total_spend": 42266.08
     },
     {
       "flagged_shipment_count": 4,
@@ -1250,75 +1026,51 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "MI-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.830769,
-      "shipment_count": 65,
-      "total_spend": 37624.27
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "IL-MN",
+      "lane_id": "OH-NY",
       "mode": "FTL",
-      "on_time_rate": 0.9375,
-      "shipment_count": 16,
-      "total_spend": 33883.26
+      "on_time_rate": 0.947368,
+      "shipment_count": 19,
+      "total_spend": 36202.32
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "NY-MA",
+      "lane_id": "IL-OH",
       "mode": "FTL",
-      "on_time_rate": 0.941176,
-      "shipment_count": 17,
-      "total_spend": 33774.02
+      "on_time_rate": 0.85,
+      "shipment_count": 20,
+      "total_spend": 31910.45
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "CA-WA",
+      "lane_id": "OH-TX",
       "mode": "FTL",
       "on_time_rate": 0.857143,
       "shipment_count": 14,
-      "total_spend": 29252.01
+      "total_spend": 29586.4
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "KY-IL",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 12,
-      "total_spend": 28514.04
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "IL-GA",
-      "mode": "FTL",
-      "on_time_rate": 0.923077,
-      "shipment_count": 13,
-      "total_spend": 26229.22
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "IL-PA",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 13,
-      "total_spend": 21916.58
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "CA-AZ",
+      "lane_id": "OH-PA",
       "mode": "LTL",
-      "on_time_rate": 0.808511,
-      "shipment_count": 47,
-      "total_spend": 21872.11
+      "on_time_rate": 0.916667,
+      "shipment_count": 48,
+      "total_spend": 21310.65
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "IL-FL",
-      "mode": "FTL",
-      "on_time_rate": 0.9,
-      "shipment_count": 10,
-      "total_spend": 19527.81
+      "lane_id": "CA-TX",
+      "mode": "LTL",
+      "on_time_rate": 0.787234,
+      "shipment_count": 47,
+      "total_spend": 20892.66
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "IL-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.83871,
+      "shipment_count": 31,
+      "total_spend": 18575.49
     },
     {
       "flagged_shipment_count": 4,
@@ -1330,51 +1082,43 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "CA-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 13167.48
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "TN-IL",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 7,
-      "total_spend": 12668.88
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "OR-CA",
+      "lane_id": "GA-NC",
       "mode": "LTL",
-      "on_time_rate": 0.791667,
-      "shipment_count": 24,
-      "total_spend": 11875.44
+      "on_time_rate": 0.857143,
+      "shipment_count": 28,
+      "total_spend": 17169.79
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "FL-NY",
+      "lane_id": "TX-CO",
       "mode": "LTL",
-      "on_time_rate": 0.909091,
+      "on_time_rate": 0.8,
+      "shipment_count": 15,
+      "total_spend": 9581.02
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "UT-CA",
+      "mode": "LTL",
+      "on_time_rate": 0.882353,
+      "shipment_count": 17,
+      "total_spend": 8732.22
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "MI-MN",
+      "mode": "LTL",
+      "on_time_rate": 0.727273,
       "shipment_count": 11,
-      "total_spend": 9032.78
+      "total_spend": 8448.38
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "TX-IL",
+      "lane_id": "TX-OH",
       "mode": "LTL",
-      "on_time_rate": 0.947368,
-      "shipment_count": 19,
-      "total_spend": 8391.46
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "MO-TX",
-      "mode": "LTL",
-      "on_time_rate": 0.695652,
-      "shipment_count": 23,
-      "total_spend": 7843.34
+      "on_time_rate": 0.809524,
+      "shipment_count": 21,
+      "total_spend": 7943.21
     },
     {
       "flagged_shipment_count": 4,
@@ -1386,38 +1130,6 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "NY-MA",
-      "mode": "LTL",
-      "on_time_rate": 0.842105,
-      "shipment_count": 19,
-      "total_spend": 6824.48
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "CA-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 5766.61
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "NC-NY",
-      "mode": "LTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 7,
-      "total_spend": 5595.71
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "NC-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 18,
-      "total_spend": 5415.99
-    },
-    {
-      "flagged_shipment_count": 4,
       "lane_id": "GA-KY",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -1426,11 +1138,19 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "CA-CO",
+      "lane_id": "MO-MI",
       "mode": "LTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 9,
-      "total_spend": 3906.29
+      "on_time_rate": 0.909091,
+      "shipment_count": 11,
+      "total_spend": 4742.06
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "NY-TX",
+      "mode": "LTL",
+      "on_time_rate": 0.916667,
+      "shipment_count": 12,
+      "total_spend": 4425.04
     },
     {
       "flagged_shipment_count": 4,
@@ -1442,19 +1162,27 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "CA-MA",
+      "lane_id": "CA-PA",
       "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 4,
-      "total_spend": 2154.12
+      "on_time_rate": 0.916667,
+      "shipment_count": 12,
+      "total_spend": 2713.1
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "KY-PA",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 6,
-      "total_spend": 2118.89
+      "lane_id": "KY-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.825,
+      "shipment_count": 40,
+      "total_spend": 1281.47
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "CA-AZ",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 43,
+      "total_spend": 1243.64
     },
     {
       "flagged_shipment_count": 4,
@@ -1466,6 +1194,38 @@
     },
     {
       "flagged_shipment_count": 4,
+      "lane_id": "GA-TN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.906977,
+      "shipment_count": 43,
+      "total_spend": 1044.41
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "MI-IL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.9,
+      "shipment_count": 30,
+      "total_spend": 1007.01
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "GA-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.966667,
+      "shipment_count": 30,
+      "total_spend": 945.6
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "WA-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.848485,
+      "shipment_count": 33,
+      "total_spend": 853.02
+    },
+    {
+      "flagged_shipment_count": 4,
       "lane_id": "IL-PA",
       "mode": "PARCEL",
       "on_time_rate": 0.96,
@@ -1474,19 +1234,19 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "MN-CA",
+      "lane_id": "TX-AZ",
       "mode": "PARCEL",
-      "on_time_rate": 0.789474,
-      "shipment_count": 19,
-      "total_spend": 726.42
+      "on_time_rate": 0.777778,
+      "shipment_count": 18,
+      "total_spend": 781.05
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "MN-IL",
+      "lane_id": "OH-CA",
       "mode": "PARCEL",
-      "on_time_rate": 0.947368,
-      "shipment_count": 19,
-      "total_spend": 613.62
+      "on_time_rate": 0.85,
+      "shipment_count": 20,
+      "total_spend": 517.8
     },
     {
       "flagged_shipment_count": 4,
@@ -1498,6 +1258,38 @@
     },
     {
       "flagged_shipment_count": 4,
+      "lane_id": "NC-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.894737,
+      "shipment_count": 19,
+      "total_spend": 497.96
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "NC-TN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 21,
+      "total_spend": 484.23
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "NY-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.923077,
+      "shipment_count": 13,
+      "total_spend": 390.39
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "FL-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.916667,
+      "shipment_count": 12,
+      "total_spend": 385.02
+    },
+    {
+      "flagged_shipment_count": 4,
       "lane_id": "IL-FL",
       "mode": "PARCEL",
       "on_time_rate": 0.933333,
@@ -1506,83 +1298,147 @@
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "MN-PA",
+      "lane_id": "IL-MN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 15,
+      "total_spend": 343.01
+    },
+    {
+      "flagged_shipment_count": 4,
+      "lane_id": "FL-TX",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 11,
-      "total_spend": 361.58
+      "total_spend": 320.44
     },
     {
       "flagged_shipment_count": 4,
-      "lane_id": "MA-PA",
+      "lane_id": "WA-TX",
       "mode": "PARCEL",
+      "on_time_rate": 0.625,
+      "shipment_count": 8,
+      "total_spend": 195.79
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "OR-WA",
+      "mode": "FTL",
+      "on_time_rate": 0.906977,
+      "shipment_count": 43,
+      "total_spend": 85241.18
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "IL-MI",
+      "mode": "FTL",
+      "on_time_rate": 0.944444,
+      "shipment_count": 36,
+      "total_spend": 71651.29
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "OH-KY",
+      "mode": "FTL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 33,
+      "total_spend": 60007.12
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-AZ",
+      "mode": "FTL",
       "on_time_rate": 1.0,
-      "shipment_count": 7,
-      "total_spend": 299.93
-    },
-    {
-      "flagged_shipment_count": 4,
-      "lane_id": "MI-PA",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 13,
-      "total_spend": 255.95
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "PA-OH",
-      "mode": "FTL",
-      "on_time_rate": 0.877551,
-      "shipment_count": 49,
-      "total_spend": 86887.32
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "TX-IL",
-      "mode": "FTL",
-      "on_time_rate": 0.862069,
-      "shipment_count": 29,
-      "total_spend": 69498.89
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "MI-IL",
-      "mode": "FTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 14,
-      "total_spend": 35836.53
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "IL-OH",
-      "mode": "FTL",
-      "on_time_rate": 0.85,
-      "shipment_count": 20,
-      "total_spend": 31910.45
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "NC-GA",
-      "mode": "FTL",
-      "on_time_rate": 0.866667,
-      "shipment_count": 15,
-      "total_spend": 30299.62
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "OH-IL",
-      "mode": "LTL",
-      "on_time_rate": 0.741935,
-      "shipment_count": 31,
-      "total_spend": 21077.42
+      "shipment_count": 27,
+      "total_spend": 56367.29
     },
     {
       "flagged_shipment_count": 3,
       "lane_id": "CA-TX",
+      "mode": "FTL",
+      "on_time_rate": 0.821429,
+      "shipment_count": 28,
+      "total_spend": 55847.92
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "GA-TN",
+      "mode": "FTL",
+      "on_time_rate": 0.866667,
+      "shipment_count": 30,
+      "total_spend": 52661.11
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "KY-GA",
+      "mode": "FTL",
+      "on_time_rate": 0.933333,
+      "shipment_count": 15,
+      "total_spend": 34613.83
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "OR-WA",
       "mode": "LTL",
-      "on_time_rate": 0.787234,
-      "shipment_count": 47,
-      "total_spend": 20892.66
+      "on_time_rate": 0.87037,
+      "shipment_count": 54,
+      "total_spend": 34246.86
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "NY-MA",
+      "mode": "FTL",
+      "on_time_rate": 0.941176,
+      "shipment_count": 17,
+      "total_spend": 33774.02
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 14,
+      "total_spend": 31921.08
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-WA",
+      "mode": "FTL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 14,
+      "total_spend": 29252.01
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-UT",
+      "mode": "FTL",
+      "on_time_rate": 0.733333,
+      "shipment_count": 15,
+      "total_spend": 28184.61
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "IL-PA",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 13,
+      "total_spend": 21916.58
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "IN-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.862745,
+      "shipment_count": 51,
+      "total_spend": 21713.09
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "IL-FL",
+      "mode": "FTL",
+      "on_time_rate": 0.9,
+      "shipment_count": 10,
+      "total_spend": 19527.81
     },
     {
       "flagged_shipment_count": 3,
@@ -1594,11 +1450,43 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "KY-MO",
+      "lane_id": "OH-KY",
+      "mode": "LTL",
+      "on_time_rate": 0.868421,
+      "shipment_count": 38,
+      "total_spend": 17188.05
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TX-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.862069,
+      "shipment_count": 29,
+      "total_spend": 15367.07
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "PA-MA",
       "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 14872.35
+      "on_time_rate": 0.714286,
+      "shipment_count": 7,
+      "total_spend": 14578.53
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CO-CA",
+      "mode": "LTL",
+      "on_time_rate": 0.782609,
+      "shipment_count": 23,
+      "total_spend": 14124.99
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TN-IL",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 7,
+      "total_spend": 12668.88
     },
     {
       "flagged_shipment_count": 3,
@@ -1610,11 +1498,27 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TX-PA",
+      "lane_id": "OR-CA",
       "mode": "LTL",
-      "on_time_rate": 0.952381,
-      "shipment_count": 21,
-      "total_spend": 9965.93
+      "on_time_rate": 0.791667,
+      "shipment_count": 24,
+      "total_spend": 11875.44
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-WA",
+      "mode": "LTL",
+      "on_time_rate": 0.807692,
+      "shipment_count": 26,
+      "total_spend": 10808.86
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "KY-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.9,
+      "shipment_count": 20,
+      "total_spend": 10139.49
     },
     {
       "flagged_shipment_count": 3,
@@ -1626,11 +1530,19 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TN-FL",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 5,
-      "total_spend": 8710.88
+      "lane_id": "IN-NC",
+      "mode": "LTL",
+      "on_time_rate": 0.823529,
+      "shipment_count": 17,
+      "total_spend": 9081.05
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TX-MO",
+      "mode": "LTL",
+      "on_time_rate": 0.961538,
+      "shipment_count": 26,
+      "total_spend": 8638.78
     },
     {
       "flagged_shipment_count": 3,
@@ -1639,14 +1551,6 @@
       "on_time_rate": 0.714286,
       "shipment_count": 14,
       "total_spend": 8588.61
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "AZ-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 8375.14
     },
     {
       "flagged_shipment_count": 3,
@@ -1666,27 +1570,43 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "WA-CA",
+      "lane_id": "NY-OH",
       "mode": "LTL",
-      "on_time_rate": 0.789474,
-      "shipment_count": 19,
-      "total_spend": 7104.16
+      "on_time_rate": 0.782609,
+      "shipment_count": 23,
+      "total_spend": 7609.71
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TN-OH",
+      "lane_id": "MN-MI",
       "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 6622.9
+      "on_time_rate": 0.8125,
+      "shipment_count": 16,
+      "total_spend": 7566.05
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "PA-IL",
+      "lane_id": "OH-CA",
       "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 5,
-      "total_spend": 6223.53
+      "on_time_rate": 0.909091,
+      "shipment_count": 11,
+      "total_spend": 6980.58
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "IL-KY",
+      "mode": "LTL",
+      "on_time_rate": 0.888889,
+      "shipment_count": 18,
+      "total_spend": 6451.07
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "NC-NY",
+      "mode": "LTL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 7,
+      "total_spend": 5595.71
     },
     {
       "flagged_shipment_count": 3,
@@ -1698,6 +1618,22 @@
     },
     {
       "flagged_shipment_count": 3,
+      "lane_id": "MN-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.6,
+      "shipment_count": 5,
+      "total_spend": 5463.89
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "NC-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.777778,
+      "shipment_count": 18,
+      "total_spend": 5415.99
+    },
+    {
+      "flagged_shipment_count": 3,
       "lane_id": "TN-MO",
       "mode": "LTL",
       "on_time_rate": 0.75,
@@ -1706,27 +1642,11 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TN-TX",
+      "lane_id": "MN-CA",
       "mode": "LTL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 14,
-      "total_spend": 4528.58
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "PA-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 12,
-      "total_spend": 4523.49
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "NY-TX",
-      "mode": "LTL",
-      "on_time_rate": 0.916667,
-      "shipment_count": 12,
-      "total_spend": 4425.04
+      "on_time_rate": 0.666667,
+      "shipment_count": 9,
+      "total_spend": 4717.95
     },
     {
       "flagged_shipment_count": 3,
@@ -1735,6 +1655,22 @@
       "on_time_rate": 0.875,
       "shipment_count": 8,
       "total_spend": 4188.98
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "KY-GA",
+      "mode": "LTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 3942.19
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TX-MN",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 8,
+      "total_spend": 3604.61
     },
     {
       "flagged_shipment_count": 3,
@@ -1762,27 +1698,27 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "CA-PA",
+      "lane_id": "CA-FL",
       "mode": "LTL",
-      "on_time_rate": 0.916667,
-      "shipment_count": 12,
-      "total_spend": 2713.1
+      "on_time_rate": 0.7,
+      "shipment_count": 10,
+      "total_spend": 2734.2
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "OR-WA",
+      "lane_id": "KY-PA",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 6,
+      "total_spend": 2118.89
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "WA-OR",
       "mode": "PARCEL",
-      "on_time_rate": 0.907895,
-      "shipment_count": 76,
-      "total_spend": 2678.57
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "IN-MO",
-      "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 7,
-      "total_spend": 2137.99
+      "on_time_rate": 0.907692,
+      "shipment_count": 65,
+      "total_spend": 1964.49
     },
     {
       "flagged_shipment_count": 3,
@@ -1794,11 +1730,11 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "OR-TX",
-      "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 5,
-      "total_spend": 1662.5
+      "lane_id": "TX-GA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.893617,
+      "shipment_count": 47,
+      "total_spend": 1479.81
     },
     {
       "flagged_shipment_count": 3,
@@ -1810,19 +1746,27 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "NY-NC",
-      "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 4,
-      "total_spend": 1221.66
-    },
-    {
-      "flagged_shipment_count": 3,
       "lane_id": "OH-MI",
       "mode": "PARCEL",
       "on_time_rate": 0.930233,
       "shipment_count": 43,
       "total_spend": 1118.96
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 6,
+      "total_spend": 1020.68
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TX-FL",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 31,
+      "total_spend": 950.3
     },
     {
       "flagged_shipment_count": 3,
@@ -1842,75 +1786,107 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TX-AZ",
-      "mode": "PARCEL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 18,
-      "total_spend": 781.05
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "IL-KY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.956522,
-      "shipment_count": 23,
-      "total_spend": 544.39
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "TX-TN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 27,
-      "total_spend": 543.02
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "OH-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.85,
-      "shipment_count": 20,
-      "total_spend": 517.8
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "CA-FL",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 15,
-      "total_spend": 489.81
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "MI-KY",
+      "lane_id": "NC-OH",
       "mode": "PARCEL",
       "on_time_rate": 0.875,
       "shipment_count": 16,
-      "total_spend": 435.47
+      "total_spend": 787.22
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "NY-OH",
+      "lane_id": "OH-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.821429,
+      "shipment_count": 28,
+      "total_spend": 741.94
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "CA-WA",
       "mode": "PARCEL",
       "on_time_rate": 0.923077,
-      "shipment_count": 13,
-      "total_spend": 390.39
+      "shipment_count": 26,
+      "total_spend": 737.52
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "PA-GA",
+      "lane_id": "MN-CA",
       "mode": "PARCEL",
-      "on_time_rate": 0.944444,
-      "shipment_count": 18,
-      "total_spend": 376.44
+      "on_time_rate": 0.789474,
+      "shipment_count": 19,
+      "total_spend": 726.42
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "TX-CO",
+      "lane_id": "KY-IL",
       "mode": "PARCEL",
-      "on_time_rate": 0.692308,
-      "shipment_count": 13,
-      "total_spend": 327.21
+      "on_time_rate": 1.0,
+      "shipment_count": 19,
+      "total_spend": 721.04
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "UT-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 21,
+      "total_spend": 616.72
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "MN-IL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.947368,
+      "shipment_count": 19,
+      "total_spend": 613.62
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "PA-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.823529,
+      "shipment_count": 17,
+      "total_spend": 576.9
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "KY-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.882353,
+      "shipment_count": 17,
+      "total_spend": 574.37
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TX-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.761905,
+      "shipment_count": 21,
+      "total_spend": 488.75
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "MO-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.866667,
+      "shipment_count": 15,
+      "total_spend": 448.39
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "TN-FL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 431.41
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "MA-OH",
+      "mode": "PARCEL",
+      "on_time_rate": 0.733333,
+      "shipment_count": 15,
+      "total_spend": 345.25
     },
     {
       "flagged_shipment_count": 3,
@@ -1922,19 +1898,35 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "MO-KY",
+      "lane_id": "OH-NC",
       "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 9,
-      "total_spend": 308.47
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 305.51
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "NY-CA",
+      "lane_id": "PA-MI",
       "mode": "PARCEL",
-      "on_time_rate": 0.9,
+      "on_time_rate": 0.8,
       "shipment_count": 10,
-      "total_spend": 307.08
+      "total_spend": 303.82
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "MA-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 7,
+      "total_spend": 299.93
+    },
+    {
+      "flagged_shipment_count": 3,
+      "lane_id": "NC-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 294.47
     },
     {
       "flagged_shipment_count": 3,
@@ -1970,11 +1962,11 @@
     },
     {
       "flagged_shipment_count": 3,
-      "lane_id": "WA-TX",
+      "lane_id": "MO-FL",
       "mode": "PARCEL",
-      "on_time_rate": 0.625,
-      "shipment_count": 8,
-      "total_spend": 195.79
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 157.94
     },
     {
       "flagged_shipment_count": 3,
@@ -1983,14 +1975,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 5,
       "total_spend": 137.97
-    },
-    {
-      "flagged_shipment_count": 3,
-      "lane_id": "UT-CO",
-      "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 6,
-      "total_spend": 135.96
     },
     {
       "flagged_shipment_count": 2,
@@ -2002,51 +1986,83 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "AZ-CA",
-      "mode": "FTL",
-      "on_time_rate": 0.918919,
-      "shipment_count": 37,
-      "total_spend": 68783.02
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "CA-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.821429,
-      "shipment_count": 28,
-      "total_spend": 55847.92
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "TX-MI",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 21,
-      "total_spend": 42720.17
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "KY-IN",
+      "lane_id": "TX-IL",
       "mode": "FTL",
       "on_time_rate": 0.862069,
       "shipment_count": 29,
-      "total_spend": 41681.93
+      "total_spend": 69498.89
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "KY-GA",
+      "lane_id": "MD-PA",
       "mode": "FTL",
-      "on_time_rate": 0.933333,
-      "shipment_count": 15,
-      "total_spend": 34613.83
+      "on_time_rate": 0.821429,
+      "shipment_count": 28,
+      "total_spend": 59753.4
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "CA-OH",
+      "lane_id": "IL-TX",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 23,
+      "total_spend": 49971.32
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-GA",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 21,
+      "total_spend": 42761.64
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.842105,
+      "shipment_count": 19,
+      "total_spend": 41315.38
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OH-IL",
+      "mode": "FTL",
+      "on_time_rate": 0.842105,
+      "shipment_count": 19,
+      "total_spend": 40724.64
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "KY-TN",
+      "mode": "FTL",
+      "on_time_rate": 0.88,
+      "shipment_count": 25,
+      "total_spend": 40500.09
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-IL",
       "mode": "FTL",
       "on_time_rate": 0.857143,
       "shipment_count": 14,
-      "total_spend": 31921.08
+      "total_spend": 35836.53
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "IL-MN",
+      "mode": "FTL",
+      "on_time_rate": 0.9375,
+      "shipment_count": 16,
+      "total_spend": 33883.26
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "NY-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.882353,
+      "shipment_count": 17,
+      "total_spend": 31030.9
     },
     {
       "flagged_shipment_count": 2,
@@ -2058,6 +2074,14 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "KY-IL",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 12,
+      "total_spend": 28514.04
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "UT-CA",
       "mode": "FTL",
       "on_time_rate": 0.933333,
@@ -2066,27 +2090,43 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "TX-MO",
+      "lane_id": "IL-GA",
       "mode": "FTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 25410.19
+      "on_time_rate": 0.923077,
+      "shipment_count": 13,
+      "total_spend": 26229.22
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "CA-FL",
+      "lane_id": "PA-TX",
       "mode": "FTL",
-      "on_time_rate": 0.9,
-      "shipment_count": 10,
-      "total_spend": 22104.04
+      "on_time_rate": 0.666667,
+      "shipment_count": 9,
+      "total_spend": 22329.29
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "TN-TX",
+      "lane_id": "TX-OH",
       "mode": "FTL",
       "on_time_rate": 0.833333,
       "shipment_count": 12,
-      "total_spend": 22008.46
+      "total_spend": 22283.12
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "CA-AZ",
+      "mode": "LTL",
+      "on_time_rate": 0.808511,
+      "shipment_count": 47,
+      "total_spend": 21872.11
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OH-IL",
+      "mode": "LTL",
+      "on_time_rate": 0.741935,
+      "shipment_count": 31,
+      "total_spend": 21077.42
     },
     {
       "flagged_shipment_count": 2,
@@ -2098,19 +2138,27 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "UT-CO",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 19161.89
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "PA-MI",
+      "mode": "FTL",
+      "on_time_rate": 0.875,
+      "shipment_count": 8,
+      "total_spend": 19050.88
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "IN-TN",
       "mode": "FTL",
       "on_time_rate": 0.857143,
       "shipment_count": 7,
       "total_spend": 19016.49
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "CA-TN",
-      "mode": "FTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 9,
-      "total_spend": 18067.91
     },
     {
       "flagged_shipment_count": 2,
@@ -2122,27 +2170,19 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "OH-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.868421,
-      "shipment_count": 38,
-      "total_spend": 17188.05
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "MO-IN",
-      "mode": "FTL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 7,
-      "total_spend": 16881.18
-    },
-    {
-      "flagged_shipment_count": 2,
       "lane_id": "FL-TX",
       "mode": "FTL",
       "on_time_rate": 0.777778,
       "shipment_count": 9,
       "total_spend": 16776.9
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "KY-TX",
+      "mode": "FTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 16206.38
     },
     {
       "flagged_shipment_count": 2,
@@ -2154,27 +2194,19 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "TX-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.862069,
-      "shipment_count": 29,
-      "total_spend": 15367.07
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "PA-MA",
+      "lane_id": "KY-MO",
       "mode": "FTL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 7,
-      "total_spend": 14578.53
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "TN-PA",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
+      "on_time_rate": 0.833333,
       "shipment_count": 6,
-      "total_spend": 13879.69
+      "total_spend": 14872.35
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "CA-PA",
+      "mode": "FTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 13167.48
     },
     {
       "flagged_shipment_count": 2,
@@ -2194,6 +2226,30 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "NC-GA",
+      "mode": "LTL",
+      "on_time_rate": 0.777778,
+      "shipment_count": 27,
+      "total_spend": 12411.65
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-KY",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 11897.02
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "PA-CA",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 6,
+      "total_spend": 10977.61
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "MO-TN",
       "mode": "FTL",
       "on_time_rate": 0.8,
@@ -2202,19 +2258,43 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MO-CA",
+      "lane_id": "TX-PA",
       "mode": "LTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 16,
-      "total_spend": 8078.41
+      "on_time_rate": 0.952381,
+      "shipment_count": 21,
+      "total_spend": 9965.93
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MN-OH",
+      "lane_id": "IN-TX",
+      "mode": "LTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 20,
+      "total_spend": 9923.62
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "FL-NY",
+      "mode": "LTL",
+      "on_time_rate": 0.909091,
+      "shipment_count": 11,
+      "total_spend": 9032.78
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-FL",
       "mode": "FTL",
       "on_time_rate": 1.0,
-      "shipment_count": 4,
-      "total_spend": 7971.34
+      "shipment_count": 5,
+      "total_spend": 8710.88
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "AZ-TX",
+      "mode": "FTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 8375.14
     },
     {
       "flagged_shipment_count": 2,
@@ -2223,22 +2303,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 5,
       "total_spend": 7623.77
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "MN-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.8125,
-      "shipment_count": 16,
-      "total_spend": 7566.05
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "NC-FL",
-      "mode": "LTL",
-      "on_time_rate": 0.764706,
-      "shipment_count": 17,
-      "total_spend": 7542.08
     },
     {
       "flagged_shipment_count": 2,
@@ -2266,19 +2330,27 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MO-FL",
+      "lane_id": "PA-IL",
       "mode": "LTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 6243.82
+      "on_time_rate": 1.0,
+      "shipment_count": 5,
+      "total_spend": 6223.53
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "IL-TN",
-      "mode": "FTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 3,
-      "total_spend": 6095.07
+      "lane_id": "OH-NC",
+      "mode": "LTL",
+      "on_time_rate": 0.764706,
+      "shipment_count": 17,
+      "total_spend": 6198.19
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "CA-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 5766.61
     },
     {
       "flagged_shipment_count": 2,
@@ -2298,14 +2370,6 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MN-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.6,
-      "shipment_count": 5,
-      "total_spend": 5463.89
-    },
-    {
-      "flagged_shipment_count": 2,
       "lane_id": "AZ-UT",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -2314,19 +2378,51 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MN-CA",
+      "lane_id": "CO-UT",
       "mode": "LTL",
-      "on_time_rate": 0.666667,
+      "on_time_rate": 0.777778,
       "shipment_count": 9,
-      "total_spend": 4717.95
+      "total_spend": 4782.37
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MI-NC",
+      "lane_id": "MI-AZ",
       "mode": "LTL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 4600.61
+      "on_time_rate": 0.5,
+      "shipment_count": 4,
+      "total_spend": 4709.16
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OH-MO",
+      "mode": "LTL",
+      "on_time_rate": 0.875,
+      "shipment_count": 8,
+      "total_spend": 4592.0
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-AZ",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 4534.17
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-TX",
+      "mode": "LTL",
+      "on_time_rate": 0.714286,
+      "shipment_count": 14,
+      "total_spend": 4528.58
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "PA-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 12,
+      "total_spend": 4523.49
     },
     {
       "flagged_shipment_count": 2,
@@ -2335,6 +2431,14 @@
       "on_time_rate": 0.909091,
       "shipment_count": 11,
       "total_spend": 4396.47
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "GA-PA",
+      "mode": "LTL",
+      "on_time_rate": 0.9,
+      "shipment_count": 10,
+      "total_spend": 4378.66
     },
     {
       "flagged_shipment_count": 2,
@@ -2362,6 +2466,30 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "CA-UT",
+      "mode": "LTL",
+      "on_time_rate": 0.571429,
+      "shipment_count": 14,
+      "total_spend": 4006.05
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-CA",
+      "mode": "LTL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 4000.42
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "CA-CO",
+      "mode": "LTL",
+      "on_time_rate": 0.777778,
+      "shipment_count": 9,
+      "total_spend": 3906.29
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "CA-MN",
       "mode": "LTL",
       "on_time_rate": 0.888889,
@@ -2378,11 +2506,27 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "PA-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 3664.37
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "CA-MO",
       "mode": "LTL",
       "on_time_rate": 0.888889,
       "shipment_count": 9,
       "total_spend": 3092.79
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "GA-CA",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 6,
+      "total_spend": 2959.38
     },
     {
       "flagged_shipment_count": 2,
@@ -2394,11 +2538,19 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MI-MO",
+      "lane_id": "MN-NY",
       "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 4,
-      "total_spend": 2795.37
+      "on_time_rate": 0.727273,
+      "shipment_count": 11,
+      "total_spend": 2929.79
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MN-AZ",
+      "mode": "FTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 2685.94
     },
     {
       "flagged_shipment_count": 2,
@@ -2410,27 +2562,43 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MA-FL",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 2293.55
+      "lane_id": "PA-NY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.987805,
+      "shipment_count": 82,
+      "total_spend": 2205.0
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "PA-FL",
+      "lane_id": "CA-MA",
       "mode": "LTL",
       "on_time_rate": 1.0,
       "shipment_count": 4,
-      "total_spend": 1971.95
+      "total_spend": 2154.12
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "NY-MI",
+      "lane_id": "IN-MO",
       "mode": "LTL",
       "on_time_rate": 1.0,
+      "shipment_count": 7,
+      "total_spend": 2137.99
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "NY-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
       "shipment_count": 3,
-      "total_spend": 1744.51
+      "total_spend": 1866.39
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OR-TX",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 5,
+      "total_spend": 1662.5
     },
     {
       "flagged_shipment_count": 2,
@@ -2450,11 +2618,43 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "TN-FL",
+      "mode": "LTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 1542.36
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "PA-CA",
       "mode": "LTL",
       "on_time_rate": 0.8,
       "shipment_count": 5,
       "total_spend": 1462.48
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "IN-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.886364,
+      "shipment_count": 44,
+      "total_spend": 1423.75
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OH-MD",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 1230.81
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "NY-NC",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 4,
+      "total_spend": 1221.66
     },
     {
       "flagged_shipment_count": 2,
@@ -2466,11 +2666,11 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MI-IL",
+      "lane_id": "OR-CA",
       "mode": "PARCEL",
       "on_time_rate": 0.9,
-      "shipment_count": 30,
-      "total_spend": 1007.01
+      "shipment_count": 40,
+      "total_spend": 1006.01
     },
     {
       "flagged_shipment_count": 2,
@@ -2482,51 +2682,67 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MO-OH",
-      "mode": "LTL",
-      "on_time_rate": 1.0,
-      "shipment_count": 3,
-      "total_spend": 911.68
+      "lane_id": "IL-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.956522,
+      "shipment_count": 23,
+      "total_spend": 544.39
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "OH-TX",
+      "lane_id": "OH-NY",
       "mode": "PARCEL",
-      "on_time_rate": 0.821429,
-      "shipment_count": 28,
-      "total_spend": 741.94
-    },
-    {
-      "flagged_shipment_count": 2,
-      "lane_id": "NC-TN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.857143,
+      "on_time_rate": 0.904762,
       "shipment_count": 21,
-      "total_spend": 484.23
+      "total_spend": 538.06
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "IN-GA",
+      "lane_id": "CA-UT",
       "mode": "PARCEL",
-      "on_time_rate": 0.846154,
-      "shipment_count": 13,
-      "total_spend": 470.32
+      "on_time_rate": 0.818182,
+      "shipment_count": 22,
+      "total_spend": 510.36
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "IN-PA",
+      "lane_id": "GA-TX",
       "mode": "PARCEL",
-      "on_time_rate": 0.642857,
-      "shipment_count": 14,
-      "total_spend": 454.0
+      "on_time_rate": 0.875,
+      "shipment_count": 16,
+      "total_spend": 502.93
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "TN-UT",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 435.26
+      "lane_id": "CA-FL",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 15,
+      "total_spend": 489.81
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-IL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.636364,
+      "shipment_count": 11,
+      "total_spend": 465.55
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "IN-MN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8125,
+      "shipment_count": 16,
+      "total_spend": 461.13
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.875,
+      "shipment_count": 16,
+      "total_spend": 435.47
     },
     {
       "flagged_shipment_count": 2,
@@ -2538,11 +2754,27 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "TN-FL",
+      "lane_id": "CA-MN",
       "mode": "PARCEL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 431.41
+      "on_time_rate": 0.9375,
+      "shipment_count": 16,
+      "total_spend": 408.51
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-TX",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 15,
+      "total_spend": 403.05
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "CO-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.583333,
+      "shipment_count": 12,
+      "total_spend": 390.54
     },
     {
       "flagged_shipment_count": 2,
@@ -2554,6 +2786,22 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "CA-OR",
+      "mode": "PARCEL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 14,
+      "total_spend": 381.04
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "PA-GA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.944444,
+      "shipment_count": 18,
+      "total_spend": 376.44
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "NY-TX",
       "mode": "PARCEL",
       "on_time_rate": 0.923077,
@@ -2562,11 +2810,19 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MA-OH",
+      "lane_id": "MN-PA",
       "mode": "PARCEL",
-      "on_time_rate": 0.733333,
-      "shipment_count": 15,
-      "total_spend": 345.25
+      "on_time_rate": 1.0,
+      "shipment_count": 11,
+      "total_spend": 361.58
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 339.97
     },
     {
       "flagged_shipment_count": 2,
@@ -2578,19 +2834,19 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "PA-MI",
+      "lane_id": "NY-CA",
       "mode": "PARCEL",
-      "on_time_rate": 0.8,
+      "on_time_rate": 0.9,
       "shipment_count": 10,
-      "total_spend": 303.82
+      "total_spend": 307.08
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "NC-CA",
+      "lane_id": "IN-CA",
       "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 294.47
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 281.24
     },
     {
       "flagged_shipment_count": 2,
@@ -2602,11 +2858,35 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "IN-FL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.714286,
+      "shipment_count": 7,
+      "total_spend": 256.06
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MI-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 13,
+      "total_spend": 255.95
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "UT-MN",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 6,
       "total_spend": 249.81
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MA-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.9,
+      "shipment_count": 10,
+      "total_spend": 238.42
     },
     {
       "flagged_shipment_count": 2,
@@ -2642,11 +2922,11 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MN-WA",
+      "lane_id": "MI-FL",
       "mode": "PARCEL",
-      "on_time_rate": 1.0,
-      "shipment_count": 6,
-      "total_spend": 174.05
+      "on_time_rate": 0.4,
+      "shipment_count": 5,
+      "total_spend": 175.83
     },
     {
       "flagged_shipment_count": 2,
@@ -2674,14 +2954,6 @@
     },
     {
       "flagged_shipment_count": 2,
-      "lane_id": "MO-FL",
-      "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 157.94
-    },
-    {
-      "flagged_shipment_count": 2,
       "lane_id": "MI-MN",
       "mode": "PARCEL",
       "on_time_rate": 0.888889,
@@ -2698,6 +2970,30 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "CA-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 151.89
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "NY-GA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 9,
+      "total_spend": 150.3
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MD-FL",
+      "mode": "PARCEL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 149.42
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "FL-CA",
       "mode": "PARCEL",
       "on_time_rate": 0.8,
@@ -2706,11 +3002,59 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "GA-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.6,
+      "shipment_count": 5,
+      "total_spend": 147.87
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "TN-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.875,
+      "shipment_count": 8,
+      "total_spend": 140.06
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "UT-CO",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 6,
+      "total_spend": 135.96
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "IN-MD",
+      "mode": "PARCEL",
+      "on_time_rate": 0.4,
+      "shipment_count": 5,
+      "total_spend": 128.69
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "MD-GA",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 119.12
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "OH-MA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.6,
+      "shipment_count": 5,
+      "total_spend": 103.86
+    },
+    {
+      "flagged_shipment_count": 2,
+      "lane_id": "MD-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 89.51
     },
     {
       "flagged_shipment_count": 2,
@@ -2746,11 +3090,35 @@
     },
     {
       "flagged_shipment_count": 2,
+      "lane_id": "FL-MO",
+      "mode": "PARCEL",
+      "on_time_rate": 0.333333,
+      "shipment_count": 3,
+      "total_spend": 64.64
+    },
+    {
+      "flagged_shipment_count": 2,
       "lane_id": "MI-GA",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 59.12
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "PA-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.877551,
+      "shipment_count": 49,
+      "total_spend": 86887.32
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MI-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.820513,
+      "shipment_count": 39,
+      "total_spend": 86190.62
     },
     {
       "flagged_shipment_count": 1,
@@ -2762,27 +3130,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "TX-FL",
+      "lane_id": "TX-MI",
       "mode": "FTL",
-      "on_time_rate": 0.666667,
+      "on_time_rate": 1.0,
       "shipment_count": 21,
-      "total_spend": 41791.84
+      "total_spend": 42720.17
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "KY-TN",
+      "lane_id": "KY-IN",
       "mode": "FTL",
-      "on_time_rate": 0.88,
-      "shipment_count": 25,
-      "total_spend": 40500.09
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "NY-OH",
-      "mode": "FTL",
-      "on_time_rate": 0.882353,
-      "shipment_count": 17,
-      "total_spend": 31030.9
+      "on_time_rate": 0.862069,
+      "shipment_count": 29,
+      "total_spend": 41681.93
     },
     {
       "flagged_shipment_count": 1,
@@ -2794,19 +3154,27 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "PA-TX",
+      "lane_id": "MI-TX",
       "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 9,
-      "total_spend": 22329.29
+      "on_time_rate": 0.928571,
+      "shipment_count": 14,
+      "total_spend": 25474.41
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "TX-OH",
+      "lane_id": "TX-MO",
       "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 12,
-      "total_spend": 22283.12
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 25410.19
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "IN-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.909091,
+      "shipment_count": 11,
+      "total_spend": 22882.8
     },
     {
       "flagged_shipment_count": 1,
@@ -2815,6 +3183,22 @@
       "on_time_rate": 0.888889,
       "shipment_count": 9,
       "total_spend": 22202.65
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CA-FL",
+      "mode": "FTL",
+      "on_time_rate": 0.9,
+      "shipment_count": 10,
+      "total_spend": 22104.04
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-TX",
+      "mode": "FTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 12,
+      "total_spend": 22008.46
     },
     {
       "flagged_shipment_count": 1,
@@ -2842,14 +3226,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "PA-MI",
-      "mode": "FTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 8,
-      "total_spend": 19050.88
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "PA-IL",
       "mode": "FTL",
       "on_time_rate": 0.909091,
@@ -2866,11 +3242,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MD-PA",
-      "mode": "LTL",
-      "on_time_rate": 0.880952,
-      "shipment_count": 42,
-      "total_spend": 17539.59
+      "lane_id": "CA-TN",
+      "mode": "FTL",
+      "on_time_rate": 0.777778,
+      "shipment_count": 9,
+      "total_spend": 18067.91
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "KY-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 17289.25
     },
     {
       "flagged_shipment_count": 1,
@@ -2879,6 +3263,22 @@
       "on_time_rate": 0.896552,
       "shipment_count": 29,
       "total_spend": 16959.99
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-IN",
+      "mode": "FTL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 7,
+      "total_spend": 16881.18
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MI-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.714286,
+      "shipment_count": 7,
+      "total_spend": 16271.76
     },
     {
       "flagged_shipment_count": 1,
@@ -2898,11 +3298,27 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "CO-CA",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 15572.2
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "OH-NC",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 9,
       "total_spend": 14402.29
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-PA",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 6,
+      "total_spend": 13879.69
     },
     {
       "flagged_shipment_count": 1,
@@ -2914,11 +3330,27 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NY-MI",
+      "mode": "FTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 13235.65
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "GA-CA",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 6,
       "total_spend": 13215.58
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MI-NY",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 4,
+      "total_spend": 13107.32
     },
     {
       "flagged_shipment_count": 1,
@@ -2938,14 +3370,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "NC-TN",
-      "mode": "FTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 8,
-      "total_spend": 12442.55
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "MI-PA",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -2962,27 +3386,27 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "PA-CA",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 6,
-      "total_spend": 10977.61
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "CA-WA",
-      "mode": "LTL",
-      "on_time_rate": 0.807692,
-      "shipment_count": 26,
-      "total_spend": 10808.86
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "MN-TX",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 5,
       "total_spend": 10559.26
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "NC-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 10234.11
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "KY-PA",
+      "mode": "FTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 10097.17
     },
     {
       "flagged_shipment_count": 1,
@@ -3010,6 +3434,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NY-MD",
+      "mode": "FTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 8692.51
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "PA-FL",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -3026,19 +3458,27 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MO-CA",
+      "mode": "LTL",
+      "on_time_rate": 0.875,
+      "shipment_count": 16,
+      "total_spend": 8078.41
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MN-OH",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 4,
+      "total_spend": 7971.34
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MA-IN",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 7946.34
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "TX-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.809524,
-      "shipment_count": 21,
-      "total_spend": 7943.21
     },
     {
       "flagged_shipment_count": 1,
@@ -3050,11 +3490,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "NY-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.782609,
-      "shipment_count": 23,
-      "total_spend": 7609.71
+      "lane_id": "GA-MO",
+      "mode": "FTL",
+      "on_time_rate": 0.75,
+      "shipment_count": 4,
+      "total_spend": 7876.66
     },
     {
       "flagged_shipment_count": 1,
@@ -3098,6 +3538,38 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MD-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.333333,
+      "shipment_count": 3,
+      "total_spend": 6739.68
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-OH",
+      "mode": "LTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 6622.9
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CA-MA",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 6553.69
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-FL",
+      "mode": "LTL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 6243.82
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MN-TX",
       "mode": "LTL",
       "on_time_rate": 0.923077,
@@ -3114,11 +3586,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "OH-NC",
-      "mode": "LTL",
-      "on_time_rate": 0.764706,
-      "shipment_count": 17,
-      "total_spend": 6198.19
+      "lane_id": "IL-TN",
+      "mode": "FTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 3,
+      "total_spend": 6095.07
     },
     {
       "flagged_shipment_count": 1,
@@ -3130,6 +3602,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "IL-PA",
+      "mode": "LTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 15,
+      "total_spend": 5910.24
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "TN-CA",
       "mode": "LTL",
       "on_time_rate": 0.888889,
@@ -3138,11 +3618,67 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NC-WA",
+      "mode": "LTL",
+      "on_time_rate": 0.4,
+      "shipment_count": 5,
+      "total_spend": 5576.2
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "OH-MD",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 5489.68
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TX-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.875,
+      "shipment_count": 16,
+      "total_spend": 5471.54
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "KY-TX",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 12,
+      "total_spend": 5334.16
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-UT",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 5309.04
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-PA",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 5188.84
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "OH-NY",
       "mode": "LTL",
       "on_time_rate": 0.923077,
       "shipment_count": 13,
       "total_spend": 5170.36
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MI-MN",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 5153.46
     },
     {
       "flagged_shipment_count": 1,
@@ -3163,10 +3699,26 @@
     {
       "flagged_shipment_count": 1,
       "lane_id": "MI-AZ",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 5021.68
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "NC-IL",
       "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 4,
-      "total_spend": 4709.16
+      "on_time_rate": 0.571429,
+      "shipment_count": 7,
+      "total_spend": 4721.15
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "GA-KY",
+      "mode": "FTL",
+      "on_time_rate": 0.333333,
+      "shipment_count": 3,
+      "total_spend": 4709.72
     },
     {
       "flagged_shipment_count": 1,
@@ -3178,6 +3730,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MN-MO",
+      "mode": "FTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 4694.49
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "NY-GA",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -3186,19 +3746,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "OH-MO",
+      "lane_id": "MI-NC",
       "mode": "LTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 8,
-      "total_spend": 4592.0
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "TN-AZ",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 4534.17
+      "on_time_rate": 0.818182,
+      "shipment_count": 11,
+      "total_spend": 4600.61
     },
     {
       "flagged_shipment_count": 1,
@@ -3210,11 +3762,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "GA-PA",
+      "lane_id": "MO-OH",
+      "mode": "FTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 4324.99
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CA-MI",
       "mode": "LTL",
-      "on_time_rate": 0.9,
-      "shipment_count": 10,
-      "total_spend": 4378.66
+      "on_time_rate": 0.769231,
+      "shipment_count": 13,
+      "total_spend": 4235.46
     },
     {
       "flagged_shipment_count": 1,
@@ -3234,19 +3794,19 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MD-MI",
+      "mode": "LTL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 4065.75
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MI-CO",
       "mode": "FTL",
       "on_time_rate": 0.5,
       "shipment_count": 2,
       "total_spend": 4055.22
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "MI-CA",
-      "mode": "LTL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 4000.42
     },
     {
       "flagged_shipment_count": 1,
@@ -3258,14 +3818,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "KY-GA",
-      "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 3942.19
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "IN-MN",
       "mode": "LTL",
       "on_time_rate": 0.909091,
@@ -3274,11 +3826,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "PA-MI",
+      "lane_id": "FL-OH",
       "mode": "LTL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 3664.37
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 3727.27
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "FL-KY",
+      "mode": "FTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 3646.58
     },
     {
       "flagged_shipment_count": 1,
@@ -3322,11 +3882,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "GA-CA",
+      "lane_id": "KY-MN",
+      "mode": "FTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 3090.7
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "IN-TN",
       "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 6,
-      "total_spend": 2959.38
+      "on_time_rate": 0.75,
+      "shipment_count": 8,
+      "total_spend": 2818.0
     },
     {
       "flagged_shipment_count": 1,
@@ -3338,19 +3906,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "CA-FL",
+      "lane_id": "MI-MO",
       "mode": "LTL",
-      "on_time_rate": 0.7,
-      "shipment_count": 10,
-      "total_spend": 2734.2
+      "on_time_rate": 1.0,
+      "shipment_count": 4,
+      "total_spend": 2795.37
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MN-AZ",
+      "lane_id": "FL-MI",
       "mode": "FTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 2685.94
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 2629.45
     },
     {
       "flagged_shipment_count": 1,
@@ -3359,6 +3927,14 @@
       "on_time_rate": 0.666667,
       "shipment_count": 3,
       "total_spend": 2610.03
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-NC",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 2560.63
     },
     {
       "flagged_shipment_count": 1,
@@ -3386,6 +3962,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MA-FL",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 2293.55
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "IL-TN",
       "mode": "LTL",
       "on_time_rate": 0.875,
@@ -3399,6 +3983,22 @@
       "on_time_rate": 0.75,
       "shipment_count": 4,
       "total_spend": 2089.89
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "NY-CO",
+      "mode": "FTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 2027.4
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "PA-FL",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 4,
+      "total_spend": 1971.95
     },
     {
       "flagged_shipment_count": 1,
@@ -3426,14 +4026,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "NY-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 3,
-      "total_spend": 1866.39
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "OR-CO",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -3450,6 +4042,22 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NY-MI",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 3,
+      "total_spend": 1744.51
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MN-NC",
+      "mode": "FTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 1727.98
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MO-AZ",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -3458,11 +4066,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "TN-FL",
+      "lane_id": "NC-KY",
       "mode": "LTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 1542.36
+      "on_time_rate": 0.5,
+      "shipment_count": 4,
+      "total_spend": 1569.21
     },
     {
       "flagged_shipment_count": 1,
@@ -3471,6 +4079,22 @@
       "on_time_rate": 1.0,
       "shipment_count": 4,
       "total_spend": 1471.07
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "UT-IN",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 1444.08
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MN-GA",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 1443.17
     },
     {
       "flagged_shipment_count": 1,
@@ -3506,11 +4130,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "OH-MD",
-      "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 1230.81
+      "lane_id": "AZ-TN",
+      "mode": "FTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 1244.33
     },
     {
       "flagged_shipment_count": 1,
@@ -3530,11 +4154,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "CA-TN",
+      "lane_id": "TN-NY",
+      "mode": "FTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 1101.8
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-WA",
       "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 6,
-      "total_spend": 1020.68
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 1031.15
     },
     {
       "flagged_shipment_count": 1,
@@ -3554,11 +4186,51 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MA-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 926.91
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MO-OH",
+      "mode": "LTL",
+      "on_time_rate": 1.0,
+      "shipment_count": 3,
+      "total_spend": 911.68
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "WA-TN",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 896.31
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CO-OR",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 742.93
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MD-KY",
       "mode": "LTL",
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 734.85
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "AZ-CA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.862069,
+      "shipment_count": 29,
+      "total_spend": 705.09
     },
     {
       "flagged_shipment_count": 1,
@@ -3570,19 +4242,43 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "FL-IL",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 665.31
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "OR-CO",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 634.93
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-CO",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 634.66
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-AZ",
+      "mode": "LTL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 634.44
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MD-MA",
       "mode": "LTL",
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 616.95
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "UT-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 21,
-      "total_spend": 616.72
     },
     {
       "flagged_shipment_count": 1,
@@ -3602,22 +4298,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "PA-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.823529,
-      "shipment_count": 17,
-      "total_spend": 576.9
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "OH-NY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.904762,
-      "shipment_count": 21,
-      "total_spend": 538.06
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "CA-IL",
       "mode": "PARCEL",
       "on_time_rate": 0.941176,
@@ -3626,27 +4306,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "GA-TX",
+      "lane_id": "IN-GA",
       "mode": "PARCEL",
-      "on_time_rate": 0.875,
-      "shipment_count": 16,
-      "total_spend": 502.93
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "TX-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.761905,
-      "shipment_count": 21,
-      "total_spend": 488.75
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "IN-MN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8125,
-      "shipment_count": 16,
-      "total_spend": 461.13
+      "on_time_rate": 0.846154,
+      "shipment_count": 13,
+      "total_spend": 470.32
     },
     {
       "flagged_shipment_count": 1,
@@ -3666,11 +4330,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MO-CA",
+      "lane_id": "KY-TX",
       "mode": "PARCEL",
-      "on_time_rate": 0.866667,
-      "shipment_count": 15,
-      "total_spend": 448.39
+      "on_time_rate": 0.928571,
+      "shipment_count": 14,
+      "total_spend": 457.21
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "TN-UT",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 435.26
     },
     {
       "flagged_shipment_count": 1,
@@ -3690,19 +4362,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "CA-MN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.9375,
-      "shipment_count": 16,
-      "total_spend": 408.51
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "TN-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 15,
-      "total_spend": 403.05
+      "lane_id": "MI-MD",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 409.91
     },
     {
       "flagged_shipment_count": 1,
@@ -3722,19 +4386,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "IL-MN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 15,
-      "total_spend": 343.01
+      "lane_id": "OR-MA",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 353.97
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MI-NC",
+      "lane_id": "TN-IN",
       "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 339.97
+      "on_time_rate": 0.545455,
+      "shipment_count": 11,
+      "total_spend": 348.81
     },
     {
       "flagged_shipment_count": 1,
@@ -3746,11 +4410,35 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "WA-KY",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 336.47
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CA-GA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.909091,
+      "shipment_count": 11,
+      "total_spend": 334.71
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "CA-IN",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 10,
       "total_spend": 321.71
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "FL-PA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 12,
+      "total_spend": 320.09
     },
     {
       "flagged_shipment_count": 1,
@@ -3762,11 +4450,19 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "OH-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 305.51
+      "lane_id": "MI-CO",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 305.9
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MD-FL",
+      "mode": "LTL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 304.79
     },
     {
       "flagged_shipment_count": 1,
@@ -3786,27 +4482,19 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "IN-MO",
+      "mode": "PARCEL",
+      "on_time_rate": 0.727273,
+      "shipment_count": 11,
+      "total_spend": 263.41
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "OH-WA",
       "mode": "LTL",
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 256.38
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "IN-FL",
-      "mode": "PARCEL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 7,
-      "total_spend": 256.06
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "MA-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.9,
-      "shipment_count": 10,
-      "total_spend": 238.42
     },
     {
       "flagged_shipment_count": 1,
@@ -3834,6 +4522,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NY-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.714286,
+      "shipment_count": 7,
+      "total_spend": 204.77
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "PA-TN",
       "mode": "PARCEL",
       "on_time_rate": 0.833333,
@@ -3858,6 +4554,22 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "NC-MI",
+      "mode": "PARCEL",
+      "on_time_rate": 0.857143,
+      "shipment_count": 7,
+      "total_spend": 191.7
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "IL-NC",
+      "mode": "PARCEL",
+      "on_time_rate": 0.833333,
+      "shipment_count": 6,
+      "total_spend": 187.9
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "GA-UT",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -3874,6 +4586,22 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MN-WA",
+      "mode": "PARCEL",
+      "on_time_rate": 1.0,
+      "shipment_count": 6,
+      "total_spend": 174.05
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "IN-NY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 10,
+      "total_spend": 171.3
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MO-MI",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -3882,19 +4610,27 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "CA-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 151.89
+      "lane_id": "MI-WA",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 162.65
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MD-FL",
+      "lane_id": "NY-KY",
+      "mode": "LTL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 159.28
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MN-CO",
       "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 149.42
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 153.34
     },
     {
       "flagged_shipment_count": 1,
@@ -3919,14 +4655,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 5,
       "total_spend": 142.38
-    },
-    {
-      "flagged_shipment_count": 1,
-      "lane_id": "TN-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.875,
-      "shipment_count": 8,
-      "total_spend": 140.06
     },
     {
       "flagged_shipment_count": 1,
@@ -3962,11 +4690,11 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "OH-MA",
+      "lane_id": "CO-OH",
       "mode": "PARCEL",
-      "on_time_rate": 0.6,
-      "shipment_count": 5,
-      "total_spend": 103.86
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 106.03
     },
     {
       "flagged_shipment_count": 1,
@@ -3994,14 +4722,6 @@
     },
     {
       "flagged_shipment_count": 1,
-      "lane_id": "MD-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 89.51
-    },
-    {
-      "flagged_shipment_count": 1,
       "lane_id": "OR-AZ",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -4010,11 +4730,27 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "CA-CO",
+      "mode": "PARCEL",
+      "on_time_rate": 0.8,
+      "shipment_count": 5,
+      "total_spend": 88.63
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "MD-CA",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 4,
       "total_spend": 76.33
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "FL-AZ",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 75.31
     },
     {
       "flagged_shipment_count": 1,
@@ -4031,6 +4767,30 @@
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 67.44
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "GA-KY",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 66.53
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MA-TN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 64.26
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "KY-MN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.666667,
+      "shipment_count": 3,
+      "total_spend": 61.36
     },
     {
       "flagged_shipment_count": 1,
@@ -4090,6 +4850,22 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "PA-CO",
+      "mode": "PARCEL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 38.82
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "NC-AZ",
+      "mode": "PARCEL",
+      "on_time_rate": 0.5,
+      "shipment_count": 2,
+      "total_spend": 32.73
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "FL-MI",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -4103,6 +4879,14 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 30.45
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "CO-MD",
+      "mode": "PARCEL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 28.93
     },
     {
       "flagged_shipment_count": 1,
@@ -4130,6 +4914,14 @@
     },
     {
       "flagged_shipment_count": 1,
+      "lane_id": "MI-WA",
+      "mode": "PARCEL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 17.32
+    },
+    {
+      "flagged_shipment_count": 1,
       "lane_id": "FL-CO",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -4145,12 +4937,20 @@
       "total_spend": 16.48
     },
     {
-      "flagged_shipment_count": 0,
-      "lane_id": "MD-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.821429,
-      "shipment_count": 28,
-      "total_spend": 59753.4
+      "flagged_shipment_count": 1,
+      "lane_id": "NY-IN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 16.47
+    },
+    {
+      "flagged_shipment_count": 1,
+      "lane_id": "MD-MN",
+      "mode": "PARCEL",
+      "on_time_rate": 0.0,
+      "shipment_count": 1,
+      "total_spend": 15.26
     },
     {
       "flagged_shipment_count": 0,
@@ -4170,35 +4970,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "OH-IL",
-      "mode": "FTL",
-      "on_time_rate": 0.842105,
-      "shipment_count": 19,
-      "total_spend": 40724.64
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "GA-TX",
       "mode": "FTL",
       "on_time_rate": 0.944444,
       "shipment_count": 18,
       "total_spend": 36009.47
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CA-UT",
-      "mode": "FTL",
-      "on_time_rate": 0.733333,
-      "shipment_count": 15,
-      "total_spend": 28184.61
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MI-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.928571,
-      "shipment_count": 14,
-      "total_spend": 25474.41
     },
     {
       "flagged_shipment_count": 0,
@@ -4223,14 +4999,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 12,
       "total_spend": 24249.7
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "IN-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.909091,
-      "shipment_count": 11,
-      "total_spend": 22882.8
     },
     {
       "flagged_shipment_count": 0,
@@ -4263,14 +5031,6 @@
       "on_time_rate": 0.909091,
       "shipment_count": 11,
       "total_spend": 19558.33
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "UT-CO",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 19161.89
     },
     {
       "flagged_shipment_count": 0,
@@ -4322,35 +5082,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "KY-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 17289.25
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "FL-NY",
       "mode": "FTL",
       "on_time_rate": 0.888889,
       "shipment_count": 9,
       "total_spend": 16526.51
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MI-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 7,
-      "total_spend": 16271.76
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "KY-TX",
-      "mode": "FTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 16206.38
     },
     {
       "flagged_shipment_count": 0,
@@ -4386,14 +5122,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "CO-CA",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 15572.2
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "OH-FL",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -4415,14 +5143,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 9,
       "total_spend": 14759.75
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CO-CA",
-      "mode": "LTL",
-      "on_time_rate": 0.782609,
-      "shipment_count": 23,
-      "total_spend": 14124.99
     },
     {
       "flagged_shipment_count": 0,
@@ -4458,27 +5178,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NY-MI",
-      "mode": "FTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 13235.65
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TN-CA",
       "mode": "FTL",
       "on_time_rate": 0.857143,
       "shipment_count": 7,
       "total_spend": 13162.25
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MI-NY",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 4,
-      "total_spend": 13107.32
     },
     {
       "flagged_shipment_count": 0,
@@ -4495,6 +5199,14 @@
       "on_time_rate": 1.0,
       "shipment_count": 8,
       "total_spend": 12798.52
+    },
+    {
+      "flagged_shipment_count": 0,
+      "lane_id": "NC-TN",
+      "mode": "FTL",
+      "on_time_rate": 0.875,
+      "shipment_count": 8,
+      "total_spend": 12442.55
     },
     {
       "flagged_shipment_count": 0,
@@ -4522,14 +5234,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-KY",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 11897.02
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "GA-MI",
       "mode": "FTL",
       "on_time_rate": 0.833333,
@@ -4551,22 +5255,6 @@
       "on_time_rate": 0.833333,
       "shipment_count": 6,
       "total_spend": 10475.5
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NC-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 11,
-      "total_spend": 10234.11
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "KY-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 10097.17
     },
     {
       "flagged_shipment_count": 0,
@@ -4618,14 +5306,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NY-MD",
-      "mode": "FTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 8692.51
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "FL-NC",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -4674,14 +5354,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "GA-MO",
-      "mode": "FTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 4,
-      "total_spend": 7876.66
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NC-CA",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -4722,27 +5394,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MD-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.333333,
-      "shipment_count": 3,
-      "total_spend": 6739.68
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "FL-CA",
       "mode": "FTL",
       "on_time_rate": 0.8,
       "shipment_count": 5,
       "total_spend": 6568.95
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CA-MA",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 6553.69
     },
     {
       "flagged_shipment_count": 0,
@@ -4794,14 +5450,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "IL-PA",
-      "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 15,
-      "total_spend": 5910.24
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NC-MN",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -4818,14 +5466,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "GA-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.4,
-      "shipment_count": 10,
-      "total_spend": 5691.08
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MN-IL",
       "mode": "LTL",
       "on_time_rate": 0.733333,
@@ -4834,35 +5474,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NC-WA",
-      "mode": "LTL",
-      "on_time_rate": 0.4,
-      "shipment_count": 5,
-      "total_spend": 5576.2
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MI-PA",
       "mode": "LTL",
       "on_time_rate": 0.777778,
       "shipment_count": 9,
       "total_spend": 5553.09
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "OH-MD",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 5489.68
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "TX-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.875,
-      "shipment_count": 16,
-      "total_spend": 5471.54
     },
     {
       "flagged_shipment_count": 0,
@@ -4882,14 +5498,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MO-UT",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 5309.04
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TX-WA",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -4906,14 +5514,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MO-PA",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 5188.84
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "PA-NC",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -4927,14 +5527,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 5165.9
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MI-MN",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 5153.46
     },
     {
       "flagged_shipment_count": 0,
@@ -4970,51 +5562,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-AZ",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 5021.68
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CO-UT",
-      "mode": "LTL",
-      "on_time_rate": 0.777778,
-      "shipment_count": 9,
-      "total_spend": 4782.37
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "CA-NC",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 4746.24
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NC-IL",
-      "mode": "LTL",
-      "on_time_rate": 0.571429,
-      "shipment_count": 7,
-      "total_spend": 4721.15
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "GA-KY",
-      "mode": "FTL",
-      "on_time_rate": 0.333333,
-      "shipment_count": 3,
-      "total_spend": 4709.72
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MN-MO",
-      "mode": "FTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 4694.49
     },
     {
       "flagged_shipment_count": 0,
@@ -5074,22 +5626,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MO-OH",
-      "mode": "FTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 4324.99
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CA-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.769231,
-      "shipment_count": 13,
-      "total_spend": 4235.46
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MA-PA",
       "mode": "LTL",
       "on_time_rate": 0.8,
@@ -5146,27 +5682,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MD-MI",
-      "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 4065.75
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MD-NY",
       "mode": "LTL",
       "on_time_rate": 0.833333,
       "shipment_count": 6,
       "total_spend": 4016.33
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CA-UT",
-      "mode": "LTL",
-      "on_time_rate": 0.571429,
-      "shipment_count": 14,
-      "total_spend": 4006.05
     },
     {
       "flagged_shipment_count": 0,
@@ -5202,14 +5722,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "FL-OH",
-      "mode": "LTL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 3727.27
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "OR-MA",
       "mode": "FTL",
       "on_time_rate": 0.5,
@@ -5223,14 +5735,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 3663.47
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "FL-KY",
-      "mode": "FTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 3646.58
     },
     {
       "flagged_shipment_count": 0,
@@ -5386,14 +5890,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "KY-MN",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 3090.7
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-WA",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -5450,14 +5946,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MN-NY",
-      "mode": "LTL",
-      "on_time_rate": 0.727273,
-      "shipment_count": 11,
-      "total_spend": 2929.79
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-OR",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -5479,14 +5967,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 2829.76
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "IN-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 2818.0
     },
     {
       "flagged_shipment_count": 0,
@@ -5538,14 +6018,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "FL-MI",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 2629.45
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MD-NC",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -5559,14 +6031,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 2588.3
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MO-NC",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 2560.63
     },
     {
       "flagged_shipment_count": 0,
@@ -5794,14 +6258,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NY-CO",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 2027.4
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "OR-MN",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -5962,14 +6418,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MN-NC",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 1727.98
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "OH-UT",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -6050,14 +6498,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NC-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 4,
-      "total_spend": 1569.21
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "KY-FL",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -6122,35 +6562,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "TX-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.893617,
-      "shipment_count": 47,
-      "total_spend": 1479.81
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-TN",
       "mode": "LTL",
       "on_time_rate": 0.666667,
       "shipment_count": 3,
       "total_spend": 1477.01
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "UT-IN",
-      "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 1444.08
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MN-GA",
-      "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 1443.17
     },
     {
       "flagged_shipment_count": 0,
@@ -6271,14 +6687,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 1277.19
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "AZ-TN",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 1244.33
     },
     {
       "flagged_shipment_count": 0,
@@ -6450,14 +6858,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "TN-NY",
-      "mode": "FTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 1101.8
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "FL-AZ",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -6506,14 +6906,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MO-WA",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 1031.15
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "WA-MO",
       "mode": "FTL",
       "on_time_rate": 1.0,
@@ -6535,14 +6927,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 1007.15
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "OR-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.9,
-      "shipment_count": 40,
-      "total_spend": 1006.01
     },
     {
       "flagged_shipment_count": 0,
@@ -6578,27 +6962,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MA-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 926.91
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "AZ-MI",
       "mode": "FTL",
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 920.17
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "WA-TN",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 896.31
     },
     {
       "flagged_shipment_count": 0,
@@ -6615,14 +6983,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 868.3
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "WA-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.848485,
-      "shipment_count": 33,
-      "total_spend": 853.02
     },
     {
       "flagged_shipment_count": 0,
@@ -6682,14 +7042,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "CO-OR",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 742.93
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "GA-MN",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -6703,14 +7055,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 730.94
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "AZ-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.862069,
-      "shipment_count": 29,
-      "total_spend": 705.09
     },
     {
       "flagged_shipment_count": 0,
@@ -6735,14 +7079,6 @@
       "on_time_rate": 0.0,
       "shipment_count": 1,
       "total_spend": 666.65
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "FL-IL",
-      "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 665.31
     },
     {
       "flagged_shipment_count": 0,
@@ -6775,30 +7111,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 643.85
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "OR-CO",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 634.93
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "TN-CO",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 634.66
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "TN-AZ",
-      "mode": "LTL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 634.44
     },
     {
       "flagged_shipment_count": 0,
@@ -6906,14 +7218,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "CA-UT",
-      "mode": "PARCEL",
-      "on_time_rate": 0.818182,
-      "shipment_count": 22,
-      "total_spend": 510.36
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "IN-CO",
       "mode": "LTL",
       "on_time_rate": 1.0,
@@ -6946,27 +7250,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "TN-IL",
-      "mode": "PARCEL",
-      "on_time_rate": 0.636364,
-      "shipment_count": 11,
-      "total_spend": 465.55
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "WA-NY",
       "mode": "LTL",
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 464.93
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "KY-TX",
-      "mode": "PARCEL",
-      "on_time_rate": 0.928571,
-      "shipment_count": 14,
-      "total_spend": 457.21
     },
     {
       "flagged_shipment_count": 0,
@@ -6994,14 +7282,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-MD",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 409.91
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TX-IN",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -7023,14 +7303,6 @@
       "on_time_rate": 0.0,
       "shipment_count": 1,
       "total_spend": 392.43
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CO-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.583333,
-      "shipment_count": 12,
-      "total_spend": 390.54
     },
     {
       "flagged_shipment_count": 0,
@@ -7058,14 +7330,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "CA-OR",
-      "mode": "PARCEL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 14,
-      "total_spend": 381.04
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-TN",
       "mode": "PARCEL",
       "on_time_rate": 0.75,
@@ -7087,22 +7351,6 @@
       "on_time_rate": 0.5,
       "shipment_count": 2,
       "total_spend": 355.4
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "OR-MA",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 353.97
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "TN-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.545455,
-      "shipment_count": 11,
-      "total_spend": 348.81
     },
     {
       "flagged_shipment_count": 0,
@@ -7162,22 +7410,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "WA-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 336.47
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CA-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.909091,
-      "shipment_count": 11,
-      "total_spend": 334.71
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NC-MO",
       "mode": "LTL",
       "on_time_rate": 0.0,
@@ -7194,35 +7426,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "FL-PA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 12,
-      "total_spend": 320.09
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-IN",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
       "shipment_count": 9,
       "total_spend": 309.75
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MI-CO",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 305.9
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MD-FL",
-      "mode": "LTL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 304.79
     },
     {
       "flagged_shipment_count": 0,
@@ -7274,14 +7482,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "IN-CA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.75,
-      "shipment_count": 8,
-      "total_spend": 281.24
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NY-MD",
       "mode": "PARCEL",
       "on_time_rate": 0.833333,
@@ -7319,14 +7519,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 8,
       "total_spend": 263.71
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "IN-MO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.727273,
-      "shipment_count": 11,
-      "total_spend": 263.41
     },
     {
       "flagged_shipment_count": 0,
@@ -7426,14 +7618,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NY-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.714286,
-      "shipment_count": 7,
-      "total_spend": 204.77
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MO-CO",
       "mode": "LTL",
       "on_time_rate": 0.0,
@@ -7479,22 +7663,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 192.88
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NC-MI",
-      "mode": "PARCEL",
-      "on_time_rate": 0.857143,
-      "shipment_count": 7,
-      "total_spend": 191.7
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "IL-NC",
-      "mode": "PARCEL",
-      "on_time_rate": 0.833333,
-      "shipment_count": 6,
-      "total_spend": 187.9
     },
     {
       "flagged_shipment_count": 0,
@@ -7570,14 +7738,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-FL",
-      "mode": "PARCEL",
-      "on_time_rate": 0.4,
-      "shipment_count": 5,
-      "total_spend": 175.83
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NY-KY",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -7591,14 +7751,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 172.62
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "IN-NY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 10,
-      "total_spend": 171.3
     },
     {
       "flagged_shipment_count": 0,
@@ -7618,14 +7770,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-WA",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 162.65
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TX-WA",
       "mode": "PARCEL",
       "on_time_rate": 0.857143,
@@ -7639,14 +7783,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 161.25
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NY-KY",
-      "mode": "LTL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 159.28
     },
     {
       "flagged_shipment_count": 0,
@@ -7682,14 +7818,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MN-CO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 153.34
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TN-PA",
       "mode": "PARCEL",
       "on_time_rate": 0.75,
@@ -7703,22 +7831,6 @@
       "on_time_rate": 0.75,
       "shipment_count": 4,
       "total_spend": 150.68
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NY-GA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 9,
-      "total_spend": 150.3
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "GA-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.6,
-      "shipment_count": 5,
-      "total_spend": 147.87
     },
     {
       "flagged_shipment_count": 0,
@@ -7810,14 +7922,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "IN-MD",
-      "mode": "PARCEL",
-      "on_time_rate": 0.4,
-      "shipment_count": 5,
-      "total_spend": 128.69
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "GA-MI",
       "mode": "PARCEL",
       "on_time_rate": 0.75,
@@ -7879,14 +7983,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 3,
       "total_spend": 108.33
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CO-OH",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 106.03
     },
     {
       "flagged_shipment_count": 0,
@@ -7994,14 +8090,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "CA-CO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.8,
-      "shipment_count": 5,
-      "total_spend": 88.63
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "CO-PA",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8082,14 +8170,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "FL-AZ",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 75.31
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "GA-MD",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8154,35 +8234,11 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "GA-KY",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 66.53
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "OH-AZ",
       "mode": "PARCEL",
       "on_time_rate": 0.0,
       "shipment_count": 1,
       "total_spend": 65.89
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "FL-MO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.333333,
-      "shipment_count": 3,
-      "total_spend": 64.64
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "MA-TN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 64.26
     },
     {
       "flagged_shipment_count": 0,
@@ -8215,14 +8271,6 @@
       "on_time_rate": 0.333333,
       "shipment_count": 3,
       "total_spend": 62.27
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "KY-MN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.666667,
-      "shipment_count": 3,
-      "total_spend": 61.36
     },
     {
       "flagged_shipment_count": 0,
@@ -8386,14 +8434,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "PA-CO",
-      "mode": "PARCEL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 38.82
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "TX-MD",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8482,14 +8522,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "NC-AZ",
-      "mode": "PARCEL",
-      "on_time_rate": 0.5,
-      "shipment_count": 2,
-      "total_spend": 32.73
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "NC-TX",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8519,14 +8551,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 2,
       "total_spend": 29.91
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "CO-MD",
-      "mode": "PARCEL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 28.93
     },
     {
       "flagged_shipment_count": 0,
@@ -8698,14 +8722,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MI-WA",
-      "mode": "PARCEL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 17.32
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "MI-CO",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8735,14 +8751,6 @@
       "on_time_rate": 1.0,
       "shipment_count": 1,
       "total_spend": 16.72
-    },
-    {
-      "flagged_shipment_count": 0,
-      "lane_id": "NY-IN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 16.47
     },
     {
       "flagged_shipment_count": 0,
@@ -8802,14 +8810,6 @@
     },
     {
       "flagged_shipment_count": 0,
-      "lane_id": "MD-MN",
-      "mode": "PARCEL",
-      "on_time_rate": 0.0,
-      "shipment_count": 1,
-      "total_spend": 15.26
-    },
-    {
-      "flagged_shipment_count": 0,
       "lane_id": "AZ-UT",
       "mode": "PARCEL",
       "on_time_rate": 1.0,
@@ -8842,6 +8842,6 @@
     }
   ],
   "row_count": 1105,
-  "run_id": "cc024261-003c-4461-83f0-71e041694a54",
+  "run_id": "2c9e22a8-27ff-4231-b164-f235b3f5a4bd",
   "schema_version": "2.0.0"
 }

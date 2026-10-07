@@ -4,7 +4,7 @@ export const flagshipProjects = [
   {
     slug: "freight-kpi-tracker",
     title: "Freight KPI Tracker",
-    premise: "Finding where operations break before the summary report does.",
+    premise: "Finding costly or late freight shipments, explaining why they need review, and helping an analyst decide what to do next.",
     category: "Operational analytics",
     status: "Built 2026",
     repositoryUrl: "https://github.com/AbhayJuloori/freight-kpi-tracker",
