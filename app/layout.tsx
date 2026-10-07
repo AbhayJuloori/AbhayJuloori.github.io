@@ -16,10 +16,25 @@ const ibmPlexMono = IBM_Plex_Mono({
   display: "swap",
 });
 
+const description =
+  "Applied data scientist building analytical systems from the data and model through to the decision interface.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://abhayjuloori.github.io"),
   title: "Abhay Juloori — Applied Data Scientist",
-  description:
-    "Applied data scientist building analytical systems from the data and model through to the decision interface.",
+  description,
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Abhay Juloori",
+    title: "Abhay Juloori — Applied Data Scientist",
+    description,
+  },
+  twitter: {
+    card: "summary",
+    title: "Abhay Juloori — Applied Data Scientist",
+    description,
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
