@@ -4,7 +4,7 @@ export function IntroHero() {
   return (
     <section className="intro-hero shell" id="introduction" aria-labelledby="hero-title">
       <div className="intro-hero__copy">
-        <p className="eyebrow intro-hero__eyebrow">New York · Applied data science</p>
+        <p className="eyebrow intro-hero__eyebrow">Applied data science · Open to roles</p>
         <h1 id="hero-title">
           I’m Abhay.
           <span>I build analytical systems that turn uncertain data into decisions.</span>
