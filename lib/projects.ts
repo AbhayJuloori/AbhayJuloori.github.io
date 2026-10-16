@@ -131,13 +131,6 @@ const toolProjects = [
     external: true,
   },
   {
-    title: "Mac Session Loader",
-    category: "Personal tool",
-    summary: "Scheduling and monitoring local Codex and Claude sessions from a phone-safe surface.",
-    href: "https://github.com/AbhayJuloori/mac-session-loader",
-    external: true,
-  },
-  {
     title: "NIFTY–S&P Evidence Desk",
     category: "Experiment",
     summary: "A compact market-research desk for comparing two indices and their surrounding evidence.",
