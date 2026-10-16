@@ -110,6 +110,13 @@ export const flagshipProjects = projects.filter((project) => project.tier === "f
 
 const toolProjects = [
   {
+    title: "Stats Reasoning Eval for LLMs",
+    category: "LLM evaluation",
+    summary: "150 data prompts and 60 planted methodology flaws; which open models catch peeking, leakage and Simpson's paradox, and how far to trust the judge.",
+    href: "https://abhayjuloori.github.io/stats-reasoning-eval/",
+    external: true,
+  },
+  {
     title: "Credit Recourse Engine",
     category: "ML system",
     summary: "Confidence-aware credit decisions paired with feasible counterfactual actions.",
