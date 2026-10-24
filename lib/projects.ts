@@ -117,6 +117,20 @@ const toolProjects = [
     external: true,
   },
   {
+    title: "Catanator",
+    category: "Game AI",
+    summary: "A two-player Catan bot: a Rust engine checked move by move against the reference, a whole-turn planner, and a self-play-tuned evaluation. Strong against bots in simulation, not yet against good humans.",
+    href: "https://github.com/AbhayJuloori/catanator",
+    external: true,
+  },
+  {
+    title: "Darts contributions",
+    category: "Open source",
+    summary: "Three merged fixes to Unit8's time-series forecasting library: likelihood parameter order, single-parameter likelihood training, and ONNX prediction on integer-indexed series.",
+    href: "https://github.com/unit8co/darts/pulls?q=is%3Apr+author%3AAbhayJuloori+is%3Amerged",
+    external: true,
+  },
+  {
     title: "Credit Recourse Engine",
     category: "ML system",
     summary: "Confidence-aware credit decisions paired with feasible counterfactual actions.",
@@ -128,13 +142,6 @@ const toolProjects = [
     category: "Governed RAG",
     summary: "Role, jurisdiction, version, and effective-date controls around retrieval.",
     href: "https://github.com/AbhayJuloori/controlled-document-retrieval-compliance-tracking-system",
-    external: true,
-  },
-  {
-    title: "Codex–Claude Bridge",
-    category: "Personal tool",
-    summary: "A local orchestration layer for handing structured work between coding agents.",
-    href: "https://github.com/AbhayJuloori/codex-claude-bridge",
     external: true,
   },
   {
