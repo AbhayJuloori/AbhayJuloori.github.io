@@ -1,6 +1,6 @@
 export function ContactFooter() {
   return (
-    <footer className="contact-footer" id="about">
+    <footer className="contact-footer" id="contact">
       <div className="shell">
         <div className="contact-footer__main">
           <p className="eyebrow">Open channel</p>
@@ -13,6 +13,7 @@ export function ContactFooter() {
         </div>
         <div className="contact-footer__base">
           <span>Abhay Juloori © 2026</span>
+          <a href="/open-source/">Open source</a>
           <a href="https://github.com/AbhayJuloori" target="_blank" rel="noreferrer">GitHub</a>
           <a href="#main-content">Back to top ↑</a>
         </div>

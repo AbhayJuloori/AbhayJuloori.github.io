@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { MobileMenu } from "@/components/mobile-menu";
+import { SiteNavLinks } from "@/components/site-nav-links";
+import { contactEmail } from "@/lib/site-nav";
 
 export function SiteHeader() {
   return (
@@ -9,13 +11,11 @@ export function SiteHeader() {
         <span>Applied data scientist</span>
       </Link>
       <nav className="site-nav" aria-label="Primary navigation">
-        <Link href="/#work">Work</Link>
-        <Link href="/#experience">Experience</Link>
-        <Link href="/#about">About</Link>
+        <SiteNavLinks />
       </nav>
       <a
         className="resume-link"
-        href="mailto:juloori.abhay@gmail.com?subject=Resume%20request"
+        href={`mailto:${contactEmail}?subject=Resume%20request`}
       >
         Request résumé ↗
       </a>

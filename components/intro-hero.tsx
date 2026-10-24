@@ -14,7 +14,7 @@ export function IntroHero() {
         </p>
         <div className="hero-actions">
           <a className="text-action" href="#work">View selected work <span aria-hidden="true">↘</span></a>
-          <a className="text-action text-action--quiet" href="#about">About my work <span aria-hidden="true">↓</span></a>
+          <a className="text-action text-action--quiet" href="/contact/">Get in touch <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <HeroSignal />

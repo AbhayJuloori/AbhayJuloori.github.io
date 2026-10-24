@@ -124,13 +124,6 @@ const toolProjects = [
     external: true,
   },
   {
-    title: "Darts contributions",
-    category: "Open source",
-    summary: "Three merged fixes to Unit8's time-series forecasting library: likelihood parameter order, single-parameter likelihood training, and ONNX prediction on integer-indexed series.",
-    href: "https://github.com/unit8co/darts/pulls?q=is%3Apr+author%3AAbhayJuloori+is%3Amerged",
-    external: true,
-  },
-  {
     title: "Credit Recourse Engine",
     category: "ML system",
     summary: "Confidence-aware credit decisions paired with feasible counterfactual actions.",

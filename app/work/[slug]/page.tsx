@@ -42,7 +42,7 @@ export default async function ProjectEntryPage({
     <>
       <SiteHeader />
       <main id="main-content" className="project-entry-page shell">
-        <Link className="project-entry-page__back" href={project.tier === "flagship" ? "/#work" : "/#other-work"}>← Back to {project.tier === "flagship" ? "selected" : "other"} work</Link>
+        <Link className="project-entry-page__back" href={project.tier === "flagship" ? "/#work" : "/projects/#other-work"}>← Back to {project.tier === "flagship" ? "selected" : "other"} work</Link>
         <header className="project-entry-page__header">
           <p className="eyebrow">{project.category} / {project.status}</p>
           <h1>{project.title}</h1>

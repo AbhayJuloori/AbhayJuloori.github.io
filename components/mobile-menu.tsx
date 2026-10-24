@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { SiteNavLinks } from "@/components/site-nav-links";
+import { contactEmail } from "@/lib/site-nav";
 import { useEffect, useRef, useState } from "react";
 
 export function MobileMenu() {
@@ -48,13 +49,11 @@ export function MobileMenu() {
           <button type="button" onClick={closeMenu}>Close</button>
         </div>
         <nav aria-label="Mobile navigation">
-          <Link href="/#work" onClick={closeMenu}>Work</Link>
-          <Link href="/#experience" onClick={closeMenu}>Experience</Link>
-          <Link href="/#about" onClick={closeMenu}>About</Link>
+          <SiteNavLinks onNavigate={closeMenu} />
         </nav>
         <a
           className="mobile-menu-dialog__resume"
-          href="mailto:juloori.abhay@gmail.com?subject=Resume%20request"
+          href={`mailto:${contactEmail}?subject=Resume%20request`}
           onClick={closeMenu}
         >
           Request résumé ↗

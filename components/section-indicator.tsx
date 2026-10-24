@@ -4,13 +4,9 @@ import { useEffect, useState } from "react";
 
 const sections = [
   ["introduction", "Introduction"],
-  ["experience", "Experience"],
   ["work", "Selected work"],
-  ["working-on", "Working on"],
-  ["other-work", "Other work"],
-  ["games", "Games"],
-  ["notes", "Field notes"],
-  ["about", "Contact"],
+  ["elsewhere", "Elsewhere"],
+  ["contact", "Contact"],
 ] as const;
 
 export function SectionIndicator() {
