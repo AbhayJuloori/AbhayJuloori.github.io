@@ -26,11 +26,11 @@ export default function Home() {
             id="work-title"
             index="01"
             eyebrow="Selected work"
-            title="Four systems, each with something real at stake."
+            title="Five systems, each with something real at stake."
             note="The previews show the behavior first. The case studies trace what produced it."
           />
           <div className="work-intro" aria-hidden="true">
-            <span>Case studies / 04</span>
+            <span>Case studies / 05</span>
             <span>Select one to open</span>
           </div>
           <LivingProjectGrid />

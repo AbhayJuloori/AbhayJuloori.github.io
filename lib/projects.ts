@@ -104,6 +104,21 @@ export const projects = [
       "I separated baseline readmission risk from estimated intervention benefit and made that distinction inspectable through a decision-support interface.",
     technologies: ["Treatment effects", "Survival analysis", "Fairness"],
   },
+  {
+    slug: "keystroke-mouse-anomaly",
+    tier: "flagship",
+    title: "Keystroke and Mouse Anomaly Detection",
+    premise: "Telling whether the person typing a password and moving the mouse is the person who usually does.",
+    category: "Behavioral biometrics",
+    status: "Built 2026",
+    repositoryUrl: "https://github.com/AbhayJuloori/keystroke-mouse-anomaly",
+    demoUrl: "https://abhayjuloori.github.io/keystroke-mouse-anomaly/",
+    preview: "signature",
+    palette: "signature",
+    contribution:
+      "I fit per-user keystroke and mouse models on public benchmarks with a time split, combined them with synthetic device signals into one explained risk score, and served it through FastAPI with a per-user drift check.",
+    technologies: ["Anomaly detection", "Risk scoring", "Drift monitoring"],
+  },
 ] as const satisfies readonly ProjectSummary[];
 
 export const flagshipProjects = projects.filter((project) => project.tier === "flagship");

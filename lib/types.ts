@@ -5,9 +5,10 @@ export type ProjectSlug =
   | "freight-kpi-tracker"
   | "retail-demand-intelligence"
   | "loansurv"
-  | "caretarget";
+  | "caretarget"
+  | "keystroke-mouse-anomaly";
 
-export type ProjectPalette = "wiki" | "warehouse" | "fraud" | "freight" | "retail" | "loan" | "care";
+export type ProjectPalette = "wiki" | "warehouse" | "fraud" | "freight" | "retail" | "loan" | "care" | "signature";
 export type ProjectTier = "flagship" | "other";
 export type PreviewKey = ProjectPalette;
 

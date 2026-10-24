@@ -210,10 +210,79 @@ const fraud = {
   ],
 } as const satisfies CaseStudyContent;
 
+const signature = {
+  headline: "A password proves you know a secret. Typing rhythm and mouse movement suggest whether you are the person who usually knows it.",
+  lede:
+    "Per-user keystroke and mouse models on two public benchmarks, a session risk score with SHAP reasons, a split that keeps later attempts out of training, MLflow tracking at fixed thresholds, and a FastAPI service with a per-user drift check.",
+  question: "How well can a model built only from one person's past behavior tell that person apart from someone else using their password?",
+  stats: [
+    { value: "0.093", label: "Scaled Manhattan EER on CMU, against 0.096 in the original paper" },
+    { value: "0.086", label: "Best keystroke EER, Isolation Forest, across 51 users" },
+    { value: "0.94", label: "Mean per-user mouse AUC on 816 labeled Balabit sessions" },
+    { value: "0.5%", label: "Genuine mouse checkpoints wrongly flagged by the drift check" },
+  ],
+  statsNote:
+    "Benchmark results on 51 typists and 10 mouse users. The device signals in the risk score are synthetic, so their contribution is not a real-world estimate.",
+  sections: [
+    {
+      id: "question",
+      heading: "The account owner is the only reference there is.",
+      body: [
+        "Behavioral checks cannot learn what every attacker looks like. They learn one person's habits and measure how far a new attempt sits from them, so each model is fit per user and judged by how often it lets an impostor in versus how often it locks the owner out.",
+      ],
+    },
+    {
+      id: "data",
+      heading: "Two public benchmarks, split so the future never trains the model.",
+      body: [
+        "The CMU Keystroke Dynamics benchmark has 51 people typing .tie5Roanl 400 times over 8 sessions: 20,400 samples with 31 hold and flight times. Models train on sessions 1 to 4 and face that user's sessions 5 to 8 plus 250 impostor attempts.",
+        "Balabit mouse sessions only record time inside each session, so every training session is cut at 70% of its elapsed time. The earlier 42,433 actions fit the models and the later 23,005 set thresholds; actions crossing the cut are dropped.",
+      ],
+    },
+    {
+      id: "system",
+      heading: "Four keystroke detectors, per-user mouse models, one risk score.",
+      body: [
+        "Scaled Manhattan distance, Isolation Forest, one-class SVM and a PyTorch autoencoder are compared under the original Killourhy and Maxion protocol. Mouse sessions are cut into actions at clicks and long pauses, then described by speed, acceleration, curvature, angular velocity, straightness and click hold time.",
+        "A logistic regression combines the mouse anomaly score, eight per-user feature deviations and three synthetic device flags (emulator, rooted device, VPN) into a 0 to 100 risk score, and SHAP values on it become three plain-language reasons. Every run logs false accept and false reject rates at fixed thresholds to MLflow, and the pipeline fails if any of them is missing.",
+      ],
+    },
+    {
+      id: "evidence",
+      heading: "The paper's result reproduces, and some extras did not help.",
+      body: [
+        "Scaled Manhattan reached 0.093 EER against the published 0.096, and Isolation Forest did slightly better at 0.086. The autoencoder trailed at 0.113: 200 samples per user is little for a neural model.",
+        "One mouse action alone gives 0.32 EER; averaging 50 actions brings it to 0.13. The per-user deviation features lowered risk AUC from 0.927 to 0.910 on their own and were kept only because they let a reason name the feature that moved.",
+      ],
+    },
+    {
+      id: "interface",
+      heading: "A project page where you can try to pass as someone else.",
+      body: [
+        "Visitors type the benchmark password and are scored in the browser against all 51 real typing templates, see which user they are closest to, and draw in a pad that computes the same mouse features live. The page also replays the drift check user by user.",
+      ],
+    },
+    {
+      id: "limitations",
+      heading: "Small benchmarks, synthetic device data, and typing that changes over time.",
+      body: [
+        "The drift check caught every all-impostor window on both channels, but it also flagged 84% of CMU users on their own later sessions, whose scores rise from 1.01 to 1.14 times the reference as their typing changes. That is a re-enrollment signal, and the alert line was not moved after seeing it.",
+        "51 typists and 10 mouse users are far too few for fairness claims or real identity decisions, and the password is fixed text.",
+      ],
+    },
+  ],
+  links: [
+    { label: "Open project page", href: "https://abhayjuloori.github.io/keystroke-mouse-anomaly/" },
+    { label: "View repository", href: "https://github.com/AbhayJuloori/keystroke-mouse-anomaly" },
+    { label: "Methodology", href: "https://github.com/AbhayJuloori/keystroke-mouse-anomaly/blob/main/docs/methodology.md" },
+  ],
+} as const satisfies CaseStudyContent;
+
 const caseStudies: Partial<Record<ProjectSlug, CaseStudyContent>> = {
   wikipulse,
   "warehouse-digital-twin": warehouse,
   "graph-fraud-detection": fraud,
+  "keystroke-mouse-anomaly": signature,
 };
 
 export function getCaseStudy(slug: ProjectSlug): CaseStudyContent | undefined {

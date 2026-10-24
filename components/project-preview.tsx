@@ -73,6 +73,37 @@ function CareStill() {
   );
 }
 
+function SignatureStill() {
+  const holds = [88, 74, 81, 69, 102, 93, 86, 77, 84, 71, 90];
+  const reference = [80, 79, 76, 72, 84, 95, 82, 80, 78, 75, 86];
+  return (
+    <div className="project-preview preview-still preview-still--signature" role="img" aria-label="Key hold times compared with a user's typing template, a mouse path, and a session risk score with its reasons">
+      <div className="preview-topline"><span>Typing and movement</span><span>Session risk</span></div>
+      <svg viewBox="0 0 720 440" aria-hidden="true">
+        <text x="60" y="84" fill="currentColor" fontSize="10">KEY HOLD TIME · .tie5Roanl</text>
+        {holds.map((hold, index) => (
+          <g key={index}>
+            <rect x={60 + index * 30} y={210 - hold} width="20" height={hold} rx="2" className="signature-hold" opacity="0.85" />
+            <rect x={60 + index * 30} y={210 - reference[index]} width="20" height={reference[index]} rx="2" className="signature-ref" />
+          </g>
+        ))}
+        <text x="60" y="262" fill="currentColor" fontSize="10">MOUSE PATH · SPEED AND CURVATURE</text>
+        <path className="signature-path" d="M60 360C110 300 150 380 205 330S290 290 330 345S370 392 400 360" />
+        <circle cx="400" cy="360" r="6" fill="var(--signature-amber)" />
+        <rect x="452" y="96" width="210" height="270" fill="#fff" stroke="#c9c4b8" />
+        <text x="472" y="124" fill="currentColor" fontSize="9">SESSION RISK</text>
+        <text x="472" y="172" fontSize="40" className="signature-risk">91</text>
+        <rect x="472" y="188" width="170" height="6" fill="#e4e0d6" />
+        <rect x="472" y="188" width="155" height="6" className="signature-risk" />
+        <text x="472" y="230" fill="currentColor" fontSize="9">› MOVEMENT UNLIKE THIS USER</text>
+        <text x="472" y="258" fill="currentColor" fontSize="9">› PATH CURVATURE HIGHER</text>
+        <text x="472" y="286" fill="currentColor" fontSize="9">› EMULATOR (SYNTHETIC)</text>
+        <text x="472" y="340" fill="currentColor" fontSize="9">TOP SHAP REASONS</text>
+      </svg>
+    </div>
+  );
+}
+
 export function ProjectPreview({ preview }: { preview: PreviewKey }) {
   const { ref, active } = usePreviewVisibility<HTMLDivElement>();
 
@@ -85,6 +116,7 @@ export function ProjectPreview({ preview }: { preview: PreviewKey }) {
       {preview === "retail" ? <RetailStill /> : null}
       {preview === "loan" ? <LoanStill /> : null}
       {preview === "care" ? <CareStill /> : null}
+      {preview === "signature" ? <SignatureStill /> : null}
     </div>
   );
 }

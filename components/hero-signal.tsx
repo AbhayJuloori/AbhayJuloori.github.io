@@ -2,7 +2,7 @@ export function HeroSignal() {
   return (
     <figure className="hero-signal" aria-labelledby="hero-signal-caption">
       <div className="hero-signal__head">
-        <span>Four systems / one practice</span>
+        <span>Five systems / one practice</span>
         <span>Live evidence</span>
       </div>
       <div className="hero-signal__stage" aria-hidden="true">
@@ -25,7 +25,7 @@ export function HeroSignal() {
         </svg>
       </div>
       <figcaption className="hero-signal__caption" id="hero-signal-caption">
-        Stream · operations · simulation · graph
+        Stream · operations · simulation · graph · behavior
       </figcaption>
     </figure>
   );

@@ -40,6 +40,11 @@
   --care-blue: #286d92;
   --care-teal: #267f7b;
   --care-coral: #cc5c55;
+  --signature-ground: #f4f1ea;
+  --signature-ink: #16181b;
+  --signature-amber: #c9861a;
+  --signature-blue: #2f6f93;
+  --signature-coral: #c44d4f;
   --sans: var(--font-instrument-sans), "Helvetica Neue", Arial, sans-serif;
   --mono: var(--font-ibm-plex-mono), "SFMono-Regular", Consolas, monospace;
   --shell: min(1380px, calc(100vw - 56px));

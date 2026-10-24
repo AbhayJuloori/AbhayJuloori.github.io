@@ -8,6 +8,38 @@
   min-width: 0;
 }
 
+.living-grid__more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  aspect-ratio: 16 / 10;
+  padding: clamp(1.2rem, 2.4vw, 2rem);
+  border: 1px dashed var(--line-dark);
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.living-grid__more:hover,
+.living-grid__more:focus-visible {
+  border-style: solid;
+  background: var(--surface);
+}
+
+.living-grid__more-title {
+  max-width: 18ch;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-weight: 610;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.living-grid__more .living-card__open {
+  opacity: 1;
+  transform: none;
+}
+
 .living-card__link {
   display: block;
   text-decoration: none;
@@ -317,6 +349,16 @@
 .care-rank-risk { fill: var(--care-blue); }
 .care-rank-benefit { fill: var(--care-teal); }
 .care-rank-shift { fill: var(--care-coral); }
+
+.preview-still--signature {
+  background: var(--signature-ground);
+  color: var(--signature-ink);
+}
+
+.signature-hold { fill: var(--signature-amber); }
+.signature-ref { fill: none; stroke: #9a968c; stroke-dasharray: 3 3; }
+.signature-path { fill: none; stroke: var(--signature-blue); stroke-width: 2.5; }
+.signature-risk { fill: var(--signature-coral); }
 
 /* WikiPulse */
 .wiki-preview {
