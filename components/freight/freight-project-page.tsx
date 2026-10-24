@@ -5,7 +5,7 @@ import { FreightWorkbench } from "./freight-workbench";
 
 export function FreightProjectPage() {
   return <main id="main-content" className="freight-project-page">
-    <div className="freight-transition"><Link href="/#work">← Back to selected work</Link><span>Abhay Juloori / Applied data systems</span></div>
+    <div className="freight-transition"><Link href="/#work">← Back to selected work</Link><span>Abhay Juloori / Applied data scientist</span></div>
     <FreightWorkbench bundle={freightEvidence} />
     <FreightCaseStudy bundle={freightEvidence} />
   </main>;

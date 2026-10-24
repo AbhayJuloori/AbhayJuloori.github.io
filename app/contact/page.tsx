@@ -13,6 +13,7 @@ export default function ContactPage() {
       eyebrow="Contact"
       title="Send a note. I read every one."
       note="Roles, open-source questions, or a problem you hit in something I built. Email is the best way to reach me."
+      compactFooter
     >
       <section className="section-block section-block--flush shell" aria-label="Contact options">
         <ContactComposer />

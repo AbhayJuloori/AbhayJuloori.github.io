@@ -14,7 +14,7 @@ export default function ProjectsPage() {
     <PageFrame
       eyebrow="Projects"
       title="What is being built now, and what came before."
-      note="The flagship case studies live on the home page. This is the rest: the unfinished system and the smaller work around it."
+      note="The system I am building now, then earlier case studies and smaller tools."
     >
       <section className="section-block shell" id="working-on" aria-labelledby="working-title">
         <SectionHeading
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
           index="02"
           eyebrow="Other work"
           title="Earlier case studies, smaller systems, and tools built for a narrower need."
-          note="Useful work does not have to pretend it is a flagship case study."
+          note="Each one opens a short project page or its repository."
         />
         <SecondarySystems />
       </section>

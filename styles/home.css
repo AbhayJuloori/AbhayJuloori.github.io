@@ -89,6 +89,12 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   backdrop-filter: blur(12px);
+  transition: opacity 180ms ease;
+}
+
+.section-indicator[data-hidden="true"] {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .section-indicator::before {
@@ -771,6 +777,16 @@
 
 .contact-footer__base span:first-child {
   margin-right: auto;
+}
+
+.contact-footer--compact {
+  padding-top: 0;
+}
+
+.contact-footer--compact .contact-footer__base {
+  margin-top: 0;
+  padding: 1.6rem 0 0;
+  border-top: 0;
 }
 
 .contact-footer__base a {

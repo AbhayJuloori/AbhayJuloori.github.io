@@ -31,5 +31,9 @@ export function SectionIndicator() {
     return () => observer.disconnect();
   }, []);
 
-  return <div className="section-indicator" aria-hidden="true">{active}</div>;
+  return (
+    <div className="section-indicator" aria-hidden="true" data-hidden={active === "Contact"}>
+      {active}
+    </div>
+  );
 }

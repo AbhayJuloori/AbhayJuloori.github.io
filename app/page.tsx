@@ -30,8 +30,8 @@ export default function Home() {
             note="The previews show the behavior first. The case studies trace what produced it."
           />
           <div className="work-intro" aria-hidden="true">
-            <span>Living evidence / 04</span>
-            <span>Select a system to enter</span>
+            <span>Case studies / 04</span>
+            <span>Select one to open</span>
           </div>
           <LivingProjectGrid />
         </section>
@@ -42,7 +42,7 @@ export default function Home() {
             index="02"
             eyebrow="Elsewhere"
             title="The rest of the work, one page each."
-            note="Shorter pages instead of one long scroll."
+            note="What I am building now, fixes sent upstream, past roles, and how to reach me."
           />
           <div className="secondary-layout">
             <p className="eyebrow">Pages</p>

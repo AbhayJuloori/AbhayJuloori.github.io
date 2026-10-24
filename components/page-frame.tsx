@@ -6,11 +6,13 @@ export function PageFrame({
   title,
   note,
   children,
+  compactFooter = false,
 }: {
   eyebrow: string;
   title: string;
   note: string;
   children: React.ReactNode;
+  compactFooter?: boolean;
 }) {
   return (
     <>
@@ -23,7 +25,7 @@ export function PageFrame({
         </header>
         {children}
       </main>
-      <ContactFooter />
+      <ContactFooter compact={compactFooter} />
     </>
   );
 }

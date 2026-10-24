@@ -13,7 +13,7 @@ export default function NotesPage() {
   return (
     <PageFrame
       eyebrow="Notes"
-      title="A little context that could only belong here."
+      title="Notes from around the work."
       note="Current work, recurring questions, and what is happening away from the model."
     >
       <section className="section-block shell" id="notes" aria-labelledby="notes-title">
