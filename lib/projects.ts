@@ -153,13 +153,6 @@ const toolProjects = [
     external: true,
   },
   {
-    title: "Codex–Claude Bridge",
-    category: "Personal tool",
-    summary: "A local orchestration layer for handing structured work between coding agents.",
-    href: "https://github.com/AbhayJuloori/codex-claude-bridge",
-    external: true,
-  },
-  {
     title: "NIFTY–S&P Evidence Desk",
     category: "Experiment",
     summary: "A compact market-research desk for comparing two indices and their surrounding evidence.",
