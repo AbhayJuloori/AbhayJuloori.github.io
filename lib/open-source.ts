@@ -62,7 +62,7 @@ export const contributions: Contribution[] = [
     repo: "unit8co/darts",
     number: 3245,
     kind: "Pull request",
-    status: "in-review",
+    status: "merged",
     date: "Oct 2026",
     title: "Add ZeroInflatedLikelihood",
     summary:
