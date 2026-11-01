@@ -94,10 +94,10 @@ export const contributions: Contribution[] = [
     repo: "sebp/scikit-survival",
     number: 652,
     kind: "Issue",
-    status: "open",
+    status: "fixed",
     date: "Oct 2026",
     title: "cumulative_incidence_competing_risks crashes with time_min",
-    summary: "A broadcast error whenever time_min removes a time point. Fix proposed in #654.",
+    summary: "A broadcast error whenever time_min removes a time point. Resolved upstream by removing the parameter.",
     url: "https://github.com/sebp/scikit-survival/issues/652",
   },
   {
