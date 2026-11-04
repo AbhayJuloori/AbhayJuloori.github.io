@@ -104,10 +104,10 @@ export const contributions: Contribution[] = [
     repo: "sebp/scikit-survival",
     number: 651,
     kind: "Issue",
-    status: "open",
+    status: "fixed",
     date: "Oct 2026",
     title: "Unsorted times silently misalign 2D estimate columns in survival metrics",
-    summary: "Several metrics sort times internally without reordering the estimate columns, so unsorted input returns wrong scores without an error.",
+    summary: "Several metrics sort times internally without reordering the estimate columns, so unsorted input returns wrong scores without an error. Fixed upstream.",
     url: "https://github.com/sebp/scikit-survival/issues/651",
   },
   {
