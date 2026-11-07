@@ -229,6 +229,62 @@ const toolProjects = [
     href: "https://abhayjuloori.github.io/grasp-outcome-prediction-oxe/",
     external: true,
   },
+  {
+    title: "Shelf Gap Detection",
+    category: "Computer vision",
+    summary: "YOLOv8s fine-tuned on SKU-110K shelf photos (0.608 mAP@.5:.95 on the official test split), shelf rows and gaps from box geometry, and a FastAPI restock flag. A hand audit of 25 photos found only 27% of flagged gaps were real empty slots.",
+    href: "https://abhayjuloori.github.io/shelf-gap-detection-yolov8-sku110k/",
+    external: true,
+  },
+  {
+    title: "Hospital Quality Scorecard",
+    category: "Healthcare analytics",
+    summary: "Five CMS Care Compare files across three annual releases joined in DuckDB SQL into one scorecard row per hospital, with every suppressed or footnoted cell flagged, each KPI tied back to the published CMS values, and Indiana and New Jersey compared with state and national peers.",
+    href: "https://abhayjuloori.github.io/hospital-quality-scorecard-cms-care-compare/",
+    external: true,
+  },
+  {
+    title: "Store Task Planning Agent",
+    category: "Optimization",
+    summary: "Restock, price label and reset tasks built from Walmart M5 sales and price changes, scheduled across associate shifts with OR-Tools CP-SAT, and planned from plain requests by a LangGraph agent on qwen3 via Ollama. Short staffed, CP-SAT finishes 14.7 points more high priority work than first come first served, though a greedy rule loses fewer units.",
+    href: "https://abhayjuloori.github.io/store-task-agent-cpsat-m5/",
+    external: true,
+  },
+  {
+    title: "Food Nutrient Clustering",
+    category: "Text mining",
+    summary: "The full Open Food Facts export (4.9M products) in MongoDB, cleaned with PySpark; spaCy turns ingredient lists into allergen, sweetener and protein fields (micro F1 0.812 against Open Food Facts' own tags), plus PCA and k-means on nutrients and a Nutri-Score grade predicted from ingredient text alone.",
+    href: "https://abhayjuloori.github.io/food-nutrient-clustering-openfoodfacts/",
+    external: true,
+  },
+  {
+    title: "WIC Infant Demand Forecast and Allocation",
+    category: "Forecasting",
+    summary: "Monthly WIC infant participation for 50 states and DC from USDA FNS data and CDC birth counts, five methods on rolling-origin backtests (plain persistence had the lowest error), and a PuLP allocation of four synthetic plants under Monte Carlo capacity risk.",
+    href: "https://abhayjuloori.github.io/infant-formula-wic-demand-allocation/",
+    external: true,
+  },
+  {
+    title: "Annuity Surrender Propensity",
+    category: "Insurance analytics",
+    summary: "Logistic regression and LightGBM surrender models, segment SARIMAX forecasts and a rider retention test on 250,000 simulated fixed indexed annuity contracts built from published NAIC/LIMRA surrender tables and the 10 year Treasury path, scored next to the generator's own probability as an upper bound.",
+    href: "https://abhayjuloori.github.io/annuity-surrender-propensity-soa-fred/",
+    external: true,
+  },
+  {
+    title: "Distributor Sales and Margin Analysis",
+    category: "Commercial analytics",
+    summary: "Price, volume, mix, surcharge and rebate margin bridges in T-SQL on a SQL Server star schema for a synthetic electrical distributor shaped by Census wholesale and BLS copper price data, with account segmentation and a surcharge regression that recovers a planted effect.",
+    href: "https://abhayjuloori.github.io/distributor-margin-bridge-census-bls/",
+    external: true,
+  },
+  {
+    title: "Tire Order and Recall Lakehouse",
+    category: "Data engineering",
+    summary: "Synthetic tire orders on real NHTSA vPIC vehicles, landed incrementally from Postgres under bucket-scoped IAM policies into bronze, silver and gold Delta tables in PySpark, with MERGE upserts for late changes and order exposure to open NHTSA tire recalls. Run locally; the cloud config is written, not applied.",
+    href: "https://abhayjuloori.github.io/tire-order-recall-lakehouse-nhtsa/",
+    external: true,
+  },
 ] as const satisfies readonly SecondaryProject[];
 
 export const secondaryProjects: readonly SecondaryProject[] = [

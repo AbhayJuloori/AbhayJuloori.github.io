@@ -81,6 +81,17 @@ export const contributions: Contribution[] = [
     url: "https://github.com/sebp/scikit-survival/pull/654",
   },
   {
+    repo: "Nixtla/statsforecast",
+    number: 1344,
+    kind: "Pull request",
+    status: "in-review",
+    date: "Nov 2026",
+    title: "Allow in-sample intervals when sigma can't be estimated",
+    summary:
+      "In-sample prediction intervals from Naive, SeasonalNaive and RandomWalkWithDrift crashed on series too short to estimate sigma, and one short series took down a whole panel forecast. Fixed with a test for the three models.",
+    url: "https://github.com/Nixtla/statsforecast/pull/1344",
+  },
+  {
     repo: "unit8co/darts",
     number: 3239,
     kind: "Issue",
